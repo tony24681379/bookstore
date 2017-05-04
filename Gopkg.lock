@@ -1,0 +1,31 @@
+memo = "33863e5875f6786802ccb77a3f34b1986c6b67df743247ca390376e02ee4c4b6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/Sirupsen/logrus"
+  packages = ["."]
+  revision = "800b0fc4a6cbf28a01d026ab54d6dec7050282fa"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/inconshreveable/mousetrap"
+  packages = ["."]
+  revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/spf13/cobra"
+  packages = ["."]
+  revision = "35136c09d8da66b901337c6e86fd8e88a1a255bd"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/spf13/pflag"
+  packages = ["."]
+  revision = "9ff6c6923cfffbcd502984b8e0c80539a94968b7"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "7a6e5648d140666db5d920909e082ca00a87ba2c"

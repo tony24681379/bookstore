@@ -1,0 +1,799 @@
+product_mst_id,product_category,product_name,price,price_unit
+1,Environmental Science,Time and Methods in Environmental Interfaces Modelling,37.49,USD
+2,"Agricultural, Biological, and Food Sciences",Molecular Breeding and Nutritional Aspects of Buckwheat,37.49,USD
+3,"Biochemistry, Genetics and Molecular Biology",American Trypanosomiasis Chagas Disease (Second Edition),42.99,USD
+4,Chemical Engineering,Advanced and Emerging Polybenzoxazine Science and Technology,42.99,USD
+5,Chemical Engineering,Solar Energy Desalination Technology,42.99,USD
+6,Chemical Engineering,Handbook of Spent Hydroprocessing Catalysts (Second Edition),42.99,USD
+7,Computer Science,Deep Learning for Medical Image Analysis,29.99,USD
+8,Earth and Planetary Sciences,Integrating Emergency Management and Disaster Behavioral Health,29.99,USD
+9,Earth and Planetary Sciences,Shale Gas,38.99,USD
+10,Engineering,Databook of Plasticizers (Second Edition),38.99,USD
+11,Engineering,Handbook of Plasticizers (Third Edition),38.99,USD
+12,Engineering,Databook of Blowing and Auxiliary Agents,38.99,USD
+13,Engineering,Rheology (Third Edition),49.99,USD
+14,Environmental Science,Environmental Management,17.99,USD
+15,Finance,The China Business Model,36.99,USD
+16,Forensics and Security,Forensic Investigations,33.99,USD
+17,Forensics and Security,The Manager's Handbook for Corporate Security (Second Edition),33.99,USD
+18,Forensics and Security,Sports Travel Security,27.49,USD
+19,Materials Science,Robust Process Development and Scientific Molding (Second Edition),23.99,USD
+20,Mathematics,"Riemannian Submersions, Riemannian Maps in Hermitian Geometry, and their Applications",9.39,USD
+21,Mathematics,The Partition Method for a Power Series Expansion,14.99,USD
+22,Neuroscience,Sleep and Neurologic Disease,19.99,USD
+23,Physics and Astronomy,Applied Underwater Acoustics,29.99,USD
+24,Immunology and Microbiology,The Digestive Involvement in Systemic Autoimmune Diseases,29.99,USD
+25,"Biochemistry, Genetics and Molecular Biology",Presenting an Effective and Dynamic Technical Paper,29.99,USD
+26,Chemistry,Discovery and Development of Antidiabetic Agents from Natural Products,24.99,USD
+27,Earth and Planetary Sciences,Practical Petroleum Geochemistry for Exploration and Production,14.99,USD
+28,Earth and Planetary Sciences,"Social Network Analysis of Disaster Response, Recovery, and Adaptation",19.99,USD
+29,Earth and Planetary Sciences,Introduction to Volcanic Seismology (Third Edition),15.49,USD
+30,Physics and Astronomy,Advances in Semiconductor Nanostructures,14.99,USD
+31,"Agricultural, Biological, and Food Sciences",Ecology and Evolution of Cancer,14.89,USD
+32,Chemistry,Multi-Scale Approaches in Drug Discovery,14.89,USD
+33,Computer Science,Mobile Sensors and Context-Aware Computing,15.89,USD
+34,Computer Science,Application Performance Management (APM) in the Digital Enterprise,14.99,USD
+35,Computer Science,Advanced Persistent Security,18.99,USD
+36,Computer Science,Managing the Web of Things,19.99,USD
+37,Earth and Planetary Sciences,Understanding the Bouguer Anomaly,29.99,USD
+38,Energy,Petroleum Production Engineering (Second Edition),9.69,USD
+39,Engineering,Forsthoffer's More Best Practices for Rotating Equipment,9.89,USD
+40,Engineering,Discrete-Time Neural Observers,12.59,USD
+41,Engineering,Plastics in Medical Devices for Cardiovascular Applications,7.89,USD
+42,Engineering,Topology Optimization in Engineering Structure Design,9.99,USD
+43,Mathematics,Fractional Calculus and Fractional Processes with Applications to Financial Economics,8.99,USD
+44,Neuroscience,Mathematics for Neuroscientists (Second Edition),7.79,USD
+45,Neuroscience,The Human Sciences after the Decade of the Brain,6.59,USD
+46,"Pharmacology, Toxicology and Pharmaceutical Science","Emerging Nanotechnologies for Diagnostics, Drug Delivery and Medical Devices",8.79,USD
+47,"Biochemistry, Genetics and Molecular Biology",Genetics and Evolution of Infectious Diseases (Second Edition),15.99,USD
+48,Chemical Engineering,Materials Under Extreme Conditions,11.49,USD
+49,Computer Science,Securing the Internet of Things,8.99,USD
+50,Earth and Planetary Sciences,Geomorphology and Volcanology of Costa Rica,14.99,USD
+51,Energy,Fundamentals and Applications of Supercritical Carbon Dioxide (sCO₂) Based Power Cycles,43.99,USD
+52,Engineering,Human Recognition in Unconstrained Environments,36.99,USD
+53,Engineering,Extrusion Dies for Plastics and Rubber (Fourth Edition),11.99,USD
+54,Engineering,Leadership and Management of Machining,10.59,USD
+55,Engineering,Handbook of Odors in Plastic Materials (Second Edition),11.99,USD
+56,Engineering,Handbook of Foaming and Blowing Agents,36.99,USD
+57,Engineering,Atlas of Material Damage (Second Edition),14.99,USD
+58,Environmental Science,"Methods in Stream Ecology, Volume 1 (Third Edition)",9.99,USD
+59,Materials Science,Nanofiber Composites for Biomedical Applications,5.89,USD
+60,Materials Science,Biomechanics of Tendons and Ligaments,8.99,USD
+61,Materials Science,Developments in Surface Contamination and Cleaning: Methods for Surface Cleaning,10.99,USD
+62,Materials Science,Nanotechnology and Functional Materials for Engineers,6.99,USD
+63,Mathematics,Uncertainties in GPS Positioning,5.99,USD
+64,Mathematics,New Approaches of Protein Function Prediction from Protein Interaction Networks,23.99,USD
+65,Neuroscience,Innovative Neuromodulation,17.49,USD
+66,"Pharmacology, Toxicology and Pharmaceutical Science",Medicinal Spices and Vegetables from Africa,15.59,USD
+67,"Pharmacology, Toxicology and Pharmaceutical Science",Serum Pharmacochemistry of Traditional Chinese Medicine,29.99,USD
+68,Social Sciences,Scholarly Communication at the Crossroads in China,17.99,USD
+69,Social Sciences,Contested Memories in Chinese and Japanese Foreign Policy,19.99,USD
+70,"Biochemistry, Genetics and Molecular Biology",Neuropsychiatric Disorders and Epigenetics,42.99,USD
+71,Engineering,Green Construction Project Management and Cost Oversight,14.99,USD
+72,Veterinary Medicine,Pathologic Basis of Veterinary Disease (Sixth Edition),14.99,USD
+73,"Agricultural, Biological, and Food Sciences",Fish Diseases,8.99,USD
+74,Biomedical Science and Medicine,"The Heart in Rheumatic, Autoimmune and Inflammatory Diseases",6.49,USD
+75,Chemical Engineering,Modern Inorganic Synthetic Chemistry (Second Edition),10.89,USD
+76,Engineering,Diffuse Algorithms for Neural and Neuro-Fuzzy Networks,13.99,USD
+77,Neuroscience,Primer on Cerebrovascular Diseases (Second Edition),7.49,USD
+78,Neuroscience,Stress and Epigenetics in Suicide,9.99,USD
+79,Chemistry,"{Progress in Heterocyclic Chemistry, Volume 28}",9.39,USD
+80,"Biochemistry, Genetics and Molecular Biology",High-Throughput Formulation Development of Biopharmaceuticals,10.99,USD
+81,"Agricultural, Biological, and Food Sciences",Cereal Grains (Second Edition),14.79,USD
+82,"Agricultural, Biological, and Food Sciences",The Teeth of Non-Mammalian Vertebrates,13.59,USD
+83,"Agricultural, Biological, and Food Sciences",Insect Pests of Millets,12.79,USD
+84,"Agricultural, Biological, and Food Sciences",The Coconut,5.79,USD
+85,Biomedical Science and Medicine,Congenital and Acquired Bone Marrow Failure,5.99,USD
+86,Biomedical Science and Medicine,Cushing's Disease,7.89,USD
+87,Biomedical Science and Medicine,E-Health Two-Sided Markets,6.69,USD
+88,Chemical Engineering,Solid Fuels and Heavy Hydrocarbon Liquids (Second Edition),9.99,USD
+89,Chemical Engineering,Process Plant Layout (Second Edition),6.79,USD
+90,Chemical Engineering,Life-Cycle Assessment of Biorefineries,5.89,USD
+91,Chemistry,Modern Synthesis Processes and Reactivity of Fluorinated Compounds,9.99,USD
+92,Computer Science,FTTx Networks,7.99,USD
+93,Computer Science,Advances in GPU Research and Practice,9.99,USD
+94,Computer Science,Network Storage,10.69,USD
+95,Computer Science,Software Defined Networks (Second Edition),6.48,USD
+96,Computer Science,Federal Cloud Computing (Second Edition),12.69,USD
+97,Computer Science,Big Data and Smart Service Systems,13.99,USD
+98,Energy,Clean Energy for Sustainable Development,4.99,USD
+99,Energy,Energy Positive Neighborhoods and Smart Energy Districts,9.69,USD
+100,Engineering,Cost-Effective Energy Efficient Building Retrofitting,13.99,USD
+101,Engineering,Computing and Visualization for Intravascular Imaging and Computer-Assisted Stenting,13.99,USD
+102,Finance,The Wine Value Chain in China,13.99,USD
+103,Immunology and Microbiology,Immunopotentiators in Modern Vaccines (Second Edition),10.99,USD
+104,Immunology and Microbiology,Ticks of Trinidad and Tobago - an Overview,6.49,USD
+105,Materials Science,Sustainable Construction Materials,7.79,USD
+106,Materials Science,Mechanical Behaviors of Carbon Nanotubes,8.99,USD
+107,Materials Science,Nanoscience and its Applications,32.99,USD
+108,Psychology,The Psychology of Gender and Health,32.99,USD
+109,Social Sciences,The Political Economy of Business Ethics in East Asia,31.99,USD
+110,Social Sciences,Successful Fundraising for the Academic Library,34.49,USD
+111,Immunology and Microbiology,The Heart in Systemic Autoimmune Diseases,35.99,USD
+112,Health Professions,Pharmacology and Therapeutics for Dentistry (Seventh Edition),13.99,USD
+113,Health Professions,Maxillofacial Surgery (Third Edition),16.99,USD
+114,Specialty Medicine,Case Studies in Clinical Cardiac Electrophysiology,14.99,USD
+115,Specialty Medicine,Case Reviews in Ophthalmology (Second Edition),15.99,USD
+116,Specialty Medicine,Kaufman's Clinical Neurology for Psychiatrists (Eighth Edition),5.99,USD
+117,Specialty Medicine,Chronic Coronary Artery Disease,6.99,USD
+118,Specialty Surgery,Cosmetic Facial Surgery (Second Edition),14.49,USD
+119,"Agricultural, Biological, and Food Sciences",Applications in High Resolution Mass Spectrometry,8.99,USD
+120,Biomedical Science and Medicine,Liver Pathophysiology,7.99,USD
+121,Chemical Engineering,Cosmetic Science and Technology,8.99,USD
+122,Chemical Engineering,Low Grade Heat Driven Multi-Effect Distillation and Desalination,9.89,USD
+123,Chemistry,America Invents Act Primer,13.99,USD
+124,Computer Science,Cognitive Information Systems in Management Sciences,10.99,USD
+125,Energy,Optimization in Renewable Energy Systems,15.99,USD
+126,Energy,Heat Recovery Steam Generator Technology,15.99,USD
+127,Energy,The Power Grid,12.99,USD
+128,Engineering,Statistical Techniques for Transportation Engineering,15.89,USD
+129,Environmental Science,The Application of Green Solvents in Separation Processes,15.89,USD
+130,Finance,"Probability, Statistics and Econometrics",15.89,USD
+131,Materials Science,Natural Fiber-Reinforced Biodegradable and Bioresorbable Polymer Composites,15.89,USD
+132,Materials Science,Defect Structure and Properties of Nanomaterials (Second Edition),12.99,USD
+133,Materials Science,Carbon Nanomaterials for Biological and Medical Applications,15.89,USD
+134,Neuroscience,Neural Data Science,9.99,USD
+135,Specialty Medicine,Arrhythmia Essentials (Second Edition),9.99,USD
+136,Veterinary Medicine,Veterinary Medicine (Eleventh Edition),9.39,USD
+137,"Agricultural, Biological, and Food Sciences",Wine Tasting (Third Edition),9.39,USD
+138,"Agricultural, Biological, and Food Sciences",Nutrition and Functional Foods for Healthy Aging,18.99,USD
+139,Biomedical Science and Medicine,Rare and Interesting Cases in Pulmonary Medicine,20.99,USD
+140,Biomedical Science and Medicine,Navelbine® and Taxotere®,9.39,USD
+141,Chemistry,Transition Metal-Catalyzed Benzofuran Synthesis,9.39,USD
+142,Computer Science,Big Data Analytics for Sensor-Network Collected Intelligence,9.99,USD
+143,Engineering,A Generalized Framework of Linear Multivariable Control,9.99,USD
+144,Engineering,Wheeled Mobile Robotics,9.99,USD
+145,Engineering,Aerosol Filtration,9.99,USD
+146,Immunology and Microbiology,Ticks of the Southern Cone of America,9.99,USD
+147,Materials Science,Green Composites (Second Edition),9.99,USD
+148,Materials Science,Emerging Nanotechnologies in Rechargeable Energy Storage Systems,9.39,USD
+149,Neuroscience,Translational Immunotherapy of Brain Tumors,4.99,USD
+150,Psychology,Twin Mythconceptions,4.89,USD
+151,Neuroscience,Critical Care Neurology Part II,11.99,USD
+152,Neuroscience,Critical Care Neurology Part I,7.49,USD
+153,Specialty Medicine,Clinical Gynecologic Oncology (Ninth Edition),4.59,USD
+154,Specialty Medicine,Hypertension: A Companion to Braunwald's Heart Disease (Third Edition),3.49,USD
+155,Specialty Surgery,Operative Techniques: Hand and Wrist Surgery (Third Edition),9.49,USD
+156,"Agricultural, Biological, and Food Sciences",Food Processing Technology (Fourth Edition),16.99,USD
+157,"Agricultural, Biological, and Food Sciences",Egg Innovations and Strategies for Improvements,15.99,USD
+158,"Agricultural, Biological, and Food Sciences",Gorilla Pathology and Health,14.49,USD
+159,"Agricultural, Biological, and Food Sciences",The Vitamins (Fifth Edition),10.69,USD
+160,"Agricultural, Biological, and Food Sciences",The Craft and Science of Coffee,19.99,USD
+161,"Agricultural, Biological, and Food Sciences",The Norovirus,6.99,USD
+162,"Agricultural, Biological, and Food Sciences",Biotic Stress Resistance in Millets,6.99,USD
+163,"Agricultural, Biological, and Food Sciences",Nutraceutical and Functional Food Components,6.99,USD
+164,"Agricultural, Biological, and Food Sciences",The Competitiveness of Tropical Agriculture,6.99,USD
+165,"Agricultural, Biological, and Food Sciences",Olive Mill Waste,7.99,USD
+166,"Agricultural, Biological, and Food Sciences",Electron Spin Resonance in Food Science,9.69,USD
+167,"Agricultural, Biological, and Food Sciences",Forest Management and Planning (Second Edition),5.99,USD
+168,"Agricultural, Biological, and Food Sciences",Validating Preventive Food Safety and Quality Controls,3.59,USD
+169,"Biochemistry, Genetics and Molecular Biology",Translating Epigenetics to the Clinic,8.99,USD
+170,"Biochemistry, Genetics and Molecular Biology",Modeling of Microscale Transport in Biological Processes,8.99,USD
+171,"Biochemistry, Genetics and Molecular Biology",Progress and Challenges in Precision Medicine,2.99,USD
+172,"Biochemistry, Genetics and Molecular Biology",Polycomb Group Proteins,3.29,USD
+173,Biomedical Science and Medicine,Handbook of Supportive and Palliative Radiation Oncology,5.49,USD
+174,Biomedical Science and Medicine,Introduction to Cancer Metastasis,3.39,USD
+175,Biomedical Science and Medicine,The Microbiota in Gastrointestinal Pathophysiology,3.99,USD
+176,Biomedical Science and Medicine,The Pituitary (Fourth Edition),5.49,USD
+177,Biomedical Science and Medicine,Global Health Informatics,4.99,USD
+178,Biomedical Science and Medicine,"Alcohol, Drugs, Genes and the Clinical Laboratory",4.39,USD
+179,Chemical Engineering,Technologies for Biochemical Conversion of Biomass,6.59,USD
+180,Chemical Engineering,Pulp and Paper Industry,3.49,USD
+181,Chemistry,Selection of the HPLC Method in Chemical Analysis,3.99,USD
+182,Chemistry,Inorganic and Organometallic Transition Metal Complexes with Biological Molecules and Living Cells,3.99,USD
+183,Chemistry,"Transition Metal Catalyzed Pyrimidine, Pyrazine, Pyridazine and Triazine Synthesis",9.99,USD
+184,Computer Science,Parallel Programming with OpenACC,5.79,USD
+185,Computer Science,Contextual Design (Second Edition),5.99,USD
+186,Computer Science,Penetration Tester's Open Source Toolkit (Fourth Edition),5.79,USD
+187,Computer Science,Rugged Embedded Systems,5.79,USD
+188,Computer Science,Silicon Photonics,2.99,USD
+189,Computer Science,Hacking Wireless Access Points,12.47,USD
+190,Computer Science,Peering Carrier Ethernet Networks,6.79,USD
+191,Computer Science,OCEB 2 Certification Guide (Second Edition),5.39,USD
+192,Computer Science,Coding for Penetration Testers (Second Edition),5.79,USD
+193,Computer Science,Evolution of Knowledge Science,6.79,USD
+194,Computer Science,Lossless Information Hiding in Images,7.49,USD
+195,Earth and Planetary Sciences,Nickel Sulfide Ores and Impact Melts,6.99,USD
+196,Energy,Nuclear Power,6.99,USD
+197,Energy,Deep Shale Oil and Gas,7.99,USD
+198,Energy,Fluid Phase Behavior for Conventional and Unconventional Oil and Gas Reservoirs,7.59,USD
+199,Energy,Steam Generation from Biomass,8.89,USD
+200,Energy,Clean Coal Engineering Technology (Second Edition),8.49,USD
+201,Energy,Solar Heating and Cooling Systems,8.99,USD
+202,Energy,Power Electronics and Motor Drive Systems,6.99,USD
+203,Energy,Specifications of Photovoltaic Pumping Systems in Agriculture,7.69,USD
+204,Energy,Hydraulic Fracturing in Unconventional Reservoirs,5.99,USD
+205,Engineering,Power Supplies for LED Driving (Second Edition),6.49,USD
+206,Engineering,Thermal Power Plant,5.69,USD
+207,Engineering,Microgrid,7.99,USD
+208,Engineering,Onshore Structural Design Calculations,7.39,USD
+209,Engineering,Indoor Navigation Strategies for Aerial Autonomous Systems,9.99,USD
+210,Engineering,Differential Transformation Method for Mechanical Engineering Problems,7.79,USD
+211,Engineering,Ambient Assisted Living and Enhanced Living Environments,9.99,USD
+212,Engineering,Petroleum Waste Treatment and Pollution Control,9.99,USD
+213,Engineering,Thermal System Design and Simulation,9.99,USD
+214,Engineering,High Dynamic Range Video,9.99,USD
+215,Engineering,Solid and Hazardous Waste Management,8.39,USD
+216,Engineering,Heat Transfer in Aerospace Applications,11.99,USD
+217,Engineering,Optimization of Manufacturing Systems Using the Internet of Things,12.79,USD
+218,Engineering,Intelligent Fault Diagnosis and Remaining Useful Life Prediction of Rotating Machinery,15.69,USD
+219,Engineering,Permeability Properties of Plastics and Elastomers (Fourth Edition),8.49,USD
+220,Engineering,Advanced Machining Processes of Metallic Materials (Second Edition),9.99,USD
+221,Engineering,Microfabrication and Precision Engineering,11.99,USD
+222,Environmental Science,Soil Magnetism,10.99,USD
+223,Finance,Strategic Financial Management Casebook,12.99,USD
+224,Forensics and Security,Forensic Science Reform,11.99,USD
+225,Forensics and Security,Security Metrics Management (Second Edition),12.69,USD
+226,Forensics and Security,Effective Physical Security (Fifth Edition),6.99,USD
+227,Forensics and Security,Contemporary Digital Forensic Investigations of Cloud and Mobile Applications,7.79,USD
+228,Forensics and Security,The Psychology of Criminal and Antisocial Behavior,10.99,USD
+229,Forensics and Security,Integrating Python with Leading Computer Forensics Platforms,11.99,USD
+230,Immunology and Microbiology,"Autophagy: Cancer, Other Pathologies, Inflammation, Immunity, Infection, and Aging",10.99,USD
+231,Materials Science,Functionalized Nanomaterials for the Management of Microbial Infection,14.99,USD
+232,Mathematics,The Material Point Method,13.49,USD
+233,Mathematics,Differential Equations with Mathematica (Fourth Edition),12.99,USD
+234,Mathematics,Random Operator Theory,12.99,USD
+235,Mathematics,Engineering Mathematics with Examples and Applications,10.99,USD
+236,Neuroscience,Handbook of Cannabis and Related Pathologies,8.97,USD
+237,Neuroscience,DNA Modifications in the Brain,7.99,USD
+238,Neuroscience,Stress: Neuroendocrinology and Neurobiology,7.49,USD
+239,Neuroscience,Molecular and Cellular Therapies for Motor Neuron Diseases,6.39,USD
+240,Neuroscience,Neuroprotection in Alzheimer's Disease,6.39,USD
+241,Neuroscience,Parkinson's Disease,7.89,USD
+242,Neuroscience,Physical Activity and the Aging Brain,11.99,USD
+243,Neuroscience,Nutrition and Lifestyle in Neurological Autoimmune Diseases,9.99,USD
+244,"Pharmacology, Toxicology and Pharmaceutical Science",Developing Solid Oral Dosage Forms (Second Edition),9.69,USD
+245,"Pharmacology, Toxicology and Pharmaceutical Science",Microsized and Nanosized Carriers for Nonsteroidal Anti-Inflammatory Drugs,6.79,USD
+246,"Pharmacology, Toxicology and Pharmaceutical Science",Analytical Assessment of E-Cigarettes,6.79,USD
+247,Psychology,Reconstructing Meaning After Trauma,9.9,USD
+248,Psychology,Creativity and the Performing Artist,17.99,USD
+249,Psychology,Rationality,19.89,USD
+250,Psychology,Anxiety in Children and Adolescents with Autism Spectrum Disorder,6.59,USD
+251,Psychology,Dominance and Aggression in Humans and Other Animals,9.89,USD
+252,Psychology,Explaining Suicide,9.99,USD
+253,Psychology,Quality Activities in Center-Based Programs for Adults with Autism,7.99,USD
+254,Psychology,A Practical Guide to Finding Treatments That Work for People with Autism,11.99,USD
+255,Psychology,Flexible and Focused,7.49,USD
+256,Social Sciences,Transliteracy in Complex Information Environments,9.49,USD
+257,Social Sciences,Beyond Mentoring,7.99,USD
+258,Social Sciences,Social Media in the Marketing Context,9.89,USD
+259,Social Sciences,Capital Market Integration in South Asia,9.59,USD
+260,Specialty Surgery,"Blumgart's Surgery of the Liver, Biliary Tract and Pancreas, 2-Volume Set (Sixth Edition)",6.69,USD
+261,"Agricultural, Biological, and Food Sciences",Baking Problems Solved (Second Edition),5.99,USD
+262,"Agricultural, Biological, and Food Sciences",Agricultural Systems (Second Edition),7.99,USD
+263,"Agricultural, Biological, and Food Sciences",Nanotechnology Applications in Food,6.49,USD
+264,"Agricultural, Biological, and Food Sciences",Emerging Nanotechnologies in Food Science,8.89,USD
+265,"Agricultural, Biological, and Food Sciences",Practical Guide to Vegetable Oil Processing (Second Edition),7.89,USD
+266,"Biochemistry, Genetics and Molecular Biology",Bioprinting,12.99,USD
+267,Biomedical Science and Medicine,The HDL Handbook (Third Edition),8.99,USD
+268,Chemical Engineering,Glycerol,9.99,USD
+269,Chemical Engineering,Lead-Acid Batteries for Future Automobiles,9.79,USD
+270,Chemical Engineering,Membrane Characterization,7.99,USD
+271,Chemistry,Supercritical Fluid Chromatography,6.56,USD
+272,Computer Science,Usability Testing for Survey Research,7.99,USD
+273,Computer Science,Designing User Interfaces for an Aging Population,6.99,USD
+274,Earth and Planetary Sciences,How to Become an International Disaster Volunteer,5.49,USD
+275,Engineering,Strengthening of Concrete Structures using Fiber Reinforced Polymers (FRP),4.89,USD
+276,Engineering,"Project Management, Planning and Control (Seventh Edition)",6.99,USD
+277,Engineering,Aeroacoustics of Low Mach Number Flows,6.49,USD
+278,Forensics and Security,Global Supply Chain Security and Management,8.59,USD
+279,Forensics and Security,Human Remains: Another Dimension,9.39,USD
+280,Immunology and Microbiology,The Innate Immune System,4.99,USD
+281,Materials Science,Applications of Nanofluid for Heat Transfer Enhancement,6.99,USD
+282,Materials Science,Nanostructures for Novel Therapy,10.99,USD
+283,Neuroscience,Addictive Substances and Neurological Disease,4.99,USD
+284,Neuroscience,Hearing Loss,7.99,USD
+285,"Pharmacology, Toxicology and Pharmaceutical Science",Adverse Effects of Engineered Nanomaterials (Second Edition),5.99,USD
+286,Psychology,Boundaries of Self and Reality Online,6.89,USD
+287,Psychology,"Music, Passion, and Cognitive Function",7.49,USD
+288,Social Sciences,Innovation in Public Libraries,7.99,USD
+289,"Agricultural, Biological, and Food Sciences",Foodborne Diseases (Third Edition),5.59,USD
+290,"Agricultural, Biological, and Food Sciences",New Pesticides and Soil Sensors,7.59,USD
+291,"Agricultural, Biological, and Food Sciences",Water Purification,4.6,USD
+292,"Agricultural, Biological, and Food Sciences",Nanobiosensors,6.79,USD
+293,"Agricultural, Biological, and Food Sciences",Food Packaging,6.69,USD
+294,"Agricultural, Biological, and Food Sciences",Conceptual Breakthroughs in Ethology and Animal Behavior,8.99,USD
+295,Biomedical Science and Medicine,Translational Advances in Gynecologic Cancers,9.49,USD
+296,Earth and Planetary Sciences,Theory of Electromagnetic Well Logging,7.99,USD
+297,Earth and Planetary Sciences,"Origins of the Earth, Moon, and Life",9.29,USD
+298,Engineering,Cellular Actuators,9.49,USD
+299,Engineering,Soil Mechanics,10.99,USD
+300,Engineering,Path Planning for Vehicles Operating in Uncertain 2D Environments,10.99,USD
+301,Forensics and Security,Creating Digital Faces for Law Enforcement,7.89,USD
+302,Materials Science,Steels: Microstructure and Properties (Fourth Edition),7.69,USD
+303,Materials Science,Plasma Etching Processes for CMOS Devices Realization,7.49,USD
+304,Neuroscience,Nutritional Modulators of Pain in the Aging Population,7.99,USD
+305,Neuroscience,Increasing Intelligence,7.79,USD
+306,Psychology,Pediatric Disorders of Regulation in Affect and Behavior (Second Edition),4.19,USD
+307,"Biochemistry, Genetics and Molecular Biology",PCR Guru,8.99,USD
+308,Specialty Medicine,Zakim and Boyer's Hepatology (Seventh Edition),10.99,USD
+309,Specialty Medicine,Evidence-Based Physical Diagnosis (Fourth Edition),9.99,USD
+310,Specialty Medicine,Pulmonary Pathology (Second Edition),11.79,USD
+311,Specialty Surgery,Clinical Orthopaedic Rehabilitation: a Team Approach (Fourth Edition),7.49,USD
+312,Specialty Surgery,Operative Techniques: Spine Surgery (Third Edition),11.79,USD
+313,Health Professions,"Oral, Head and Neck Oncology and Reconstructive Surgery",4.49,USD
+314,Health Professions,Sedation,10.99,USD
+315,Health Professions,Clinical Reasoning in Musculoskeletal Practice,12.99,USD
+316,Health Professions,A Practical Guide to Fascial Manipulation,9.99,USD
+317,Specialty Medicine,"Liu, Volpe, and Galetta’s Neuro-Ophthalmology",9.99,USD
+318,Specialty Medicine,Plotkin's Vaccines,10.99,USD
+319,Specialty Medicine,Hematology,10.69,USD
+320,Specialty Medicine,Integrative Medicine,7.99,USD
+321,Specialty Medicine,Gynecologic Pathology,5.99,USD
+322,Specialty Medicine,Swaiman's Pediatric Neurology,7.99,USD
+323,Specialty Medicine,Pathology of Melanocytic Tumors,7.79,USD
+324,Specialty Medicine,Essential Echocardiography,8.99,USD
+325,Specialty Medicine,Manual for Pulmonary and Critical Care Medicine,10.39,USD
+326,Specialty Medicine,Nelson Pediatric Symptom-Based Diagnosis,8.99,USD
+327,Specialty Medicine,Surgical Implantation of Cardiac Rhythm Devices,9.69,USD
+328,Specialty Medicine,Atlas of Image-Guided Spinal Procedures,7.79,USD
+329,Specialty Medicine,Goldberger's Clinical Electrocardiography,8.69,USD
+330,Specialty Medicine,Principles and Practice of Pediatric Infectious Diseases,15.99,USD
+331,Specialty Medicine,Cardiovascular Magnetic Resonance,8.99,USD
+332,Specialty Medicine,Practical Hepatic Pathology: A Diagnostic Approach,8.99,USD
+333,Specialty Medicine,Drugs for Pregnant and Lactating Women,4.29,USD
+334,Specialty Medicine,Volpe's Neurology of the Newborn,6.99,USD
+335,Specialty Medicine,Practical Pulmonary Pathology: A Diagnostic Approach,8.59,USD
+336,Specialty Medicine,Obstetric Imaging: Expert Radiology,3.79,USD
+337,Specialty Medicine,Diagnostic Pathology of Infectious Disease,9.69,USD
+338,Specialty Medicine,Cardiac Electrophysiology: From Cell to Bedside,7.99,USD
+339,Specialty Medicine,Practical Surgical Neuropathology: A Diagnostic Approach,9.59,USD
+340,Specialty Medicine,The Interventional Cardiac Catheterization Handbook,3.49,USD
+341,Specialty Medicine,Imaging in Pediatrics,8.99,USD
+342,Specialty Medicine,Cardiology Secrets,10.99,USD
+343,Specialty Medicine,Nephrology Secrets,3.39,USD
+344,Specialty Medicine,Handbook of Liver Disease,3.69,USD
+345,Specialty Medicine,Braddom’s Rehabilitation Care: A Clinical Handbook,3.99,USD
+346,Specialty Medicine,Interstitial Lung Disease,6.59,USD
+347,Specialty Medicine,Textbook of Clinical Hemodynamics,10.99,USD
+348,Specialty Medicine,Current Management of Diabetic Retinopathy,4.69,USD
+349,Specialty Medicine,Drug Allergy Testing,11.99,USD
+350,Specialty Medicine,Personalized Medicine in Asthma,8.99,USD
+351,Specialty Medicine,Urgent Care Dermatology: Symptom-Based Diagnosis,7.59,USD
+352,Specialty Medicine,Imaging in Spine Surgery,7.99,USD
+353,Specialty Medicine,Pediatric Cancer Genetics,3.99,USD
+354,Specialty Medicine,Handbook of Legal Medicine,4.69,USD
+355,Specialty Medicine,Sarcoidosis: A Specialist’s Guide,14.99,USD
+356,Specialty Medicine,Heart Failure: Epidemiology and Research Methods,7.99,USD
+357,Specialty Medicine,Practical Guide to Obesity Medicine,8.99,USD
+358,Specialty Medicine,Music Therapy: Research and Evidence-Based Practice,12.99,USD
+359,Specialty Medicine,Human Milk Composition,5.99,USD
+360,Specialty Medicine,Skull Base Imaging,9.99,USD
+361,Specialty Medicine,Lung Cancer: Evidence-Based Clinical Evaluation and Management,13.99,USD
+362,Specialty Medicine,Challenging Neuropathic Pain Syndromes,6.85,USD
+363,Specialty Medicine,PET/CT in Cancer: An Interdisciplinary Approach to Individualized Imaging,9.29,USD
+364,Specialty Medicine,Arrhythmias in Adult Congenital Heart Disease,399.99,USD
+365,Specialty Medicine,State-of-the-Art Treatment of Osteoarthritis: A Practical Guide,44.99,USD
+366,Specialty Medicine,Peters' Atlas of Tropical Medicine and Parasitology,39.99,USD
+367,Specialty Medicine,Essentials of Global Health,16.99,USD
+368,Specialty Medicine,MacSween's Pathology of the Liver,39.99,USD
+369,Specialty Medicine,Diagnosis and Management of Adult Congenital Heart Disease,79.99,USD
+370,Specialty Medicine,Community Pharmacy,79.99,USD
+371,Specialty Medicine,Aulton's Pharmaceutics,79.99,USD
+372,Specialty Medicine,Medical Pharmacology and Therapeutics,74.99,USD
+373,Specialty Medicine,Diagnostic Atlas of Cutaneous Mesenchymal Neoplasia,17.99,USD
+374,Specialty Surgery,Disorders of the Rotator Cuff and Biceps Tendon,79.99,USD
+375,Specialty Surgery,Neurocritical Care Management of the Neurosurgical Patient,28.99,USD
+376,Specialty Surgery,Master Techniques in Facial Rejuvenation,39.99,USD
+377,Specialty Surgery,The Anterior Cruciate Ligament,79.99,USD
+378,Specialty Surgery,Aesthetic Surgery Techniques,109.99,USD
+379,Specialty Surgery,Principles of Gynecologic Oncology Surgery,11.89,USD
+380,Specialty Surgery,Principles of Neurological Surgery,9.79,USD
+381,Specialty Surgery,Operative Techniques: Knee Surgery,10.49,USD
+382,Specialty Surgery,Total Burn Care,10.59,USD
+383,Specialty Surgery,Lumbar Interbody Fusions,12.99,USD
+384,Specialty Surgery,Abernathy's Surgical Secrets,9.79,USD
+385,Specialty Surgery,Pediatric Head and Neck Masses,10.99,USD
+386,Specialty Surgery,Scaphoid Fractures: Evidence-Based Management,9.79,USD
+387,Specialty Surgery,Functional Neurosurgery and Neuromodulation,9.59,USD
+388,Veterinary Medicine,Rebhun's Diseases of Dairy Cattle,9.89,USD
+389,Veterinary Medicine,Equine Internal Medicine,9.99,USD
+390,Veterinary Medicine,Exotic Animal Formulary,9.39,USD
+391,Veterinary Medicine,Textbook of Veterinary Diagnostic Radiology,8.79,USD
+392,Veterinary Medicine,Small Animal Medical Differential Diagnosis,6.99,USD
+393,"Agricultural, Biological, and Food Sciences",Soil Science Test Project,10.39,USD
+394,"Agricultural, Biological, and Food Sciences",Modern Detection Techniques for Food Safety and Quality,9.99,USD
+395,"Agricultural, Biological, and Food Sciences",Sweet potato processing technology,7.79,USD
+396,"Agricultural, Biological, and Food Sciences",Food Biosynthesis,10.59,USD
+397,"Agricultural, Biological, and Food Sciences",Food Bioconversion,11.49,USD
+398,"Agricultural, Biological, and Food Sciences",Soft Chemistry in Food Fermentation,8.99,USD
+399,"Agricultural, Biological, and Food Sciences",Ingredients Extraction by Physico-Chemical Methods,5.99,USD
+400,"Agricultural, Biological, and Food Sciences",ISTE topics in Agriculture 1,5.89,USD
+401,"Agricultural, Biological, and Food Sciences",A Practical Guide to Sensory and Consumer Evaluation,5.99,USD
+402,"Agricultural, Biological, and Food Sciences",Kent’s Technology of Cereals,7.59,USD
+403,"Agricultural, Biological, and Food Sciences",New Aspects of Meat Quality,9.99,USD
+404,"Agricultural, Biological, and Food Sciences",Chemical Contaminants and Residues in Food,11.99,USD
+405,"Agricultural, Biological, and Food Sciences",Regulatory Impact on Food Product Development in the European Union,9.99,USD
+406,"Agricultural, Biological, and Food Sciences",Lawrie´s Meat Science,10.99,USD
+407,"Agricultural, Biological, and Food Sciences",Advances in Sheep Welfare,11.99,USD
+408,"Agricultural, Biological, and Food Sciences",Improving the Sensory and Nutritional Quality of Fresh Meat,14.99,USD
+409,"Agricultural, Biological, and Food Sciences",Proteins in Food Processing,13.49,USD
+410,"Agricultural, Biological, and Food Sciences",Poultry Quality Evaluation,13.99,USD
+411,"Agricultural, Biological, and Food Sciences",Food Microstructure and Its Relationship with Quality and Stability,14.79,USD
+412,"Agricultural, Biological, and Food Sciences",Case Studies in Novel Food Processing Technologies,11.99,USD
+413,"Agricultural, Biological, and Food Sciences",Gluten-Free Ancient Grains,21.49,USD
+414,"Agricultural, Biological, and Food Sciences",Starch in Food,12.99,USD
+415,"Agricultural, Biological, and Food Sciences",Advances in Poultry Welfare,13.99,USD
+416,"Agricultural, Biological, and Food Sciences",Soft Drink and Fruit Juice Problems Solved,13.79,USD
+417,"Agricultural, Biological, and Food Sciences","Foods, Nutrients and Food Ingredients with Authorised EU Health Claims, Volume 3",15.49,USD
+418,"Agricultural, Biological, and Food Sciences",Advances in Cattle Welfare,15.49,USD
+419,"Agricultural, Biological, and Food Sciences",Consumer Science and Strategic Marketing: Case Studies in the Wine Industry,15.99,USD
+420,"Agricultural, Biological, and Food Sciences",Sensory Panel Management,16.49,USD
+421,"Agricultural, Biological, and Food Sciences",Consumer Science and Strategic Marketing,13.59,USD
+422,"Agricultural, Biological, and Food Sciences",Discrimination Testing in Sensory Science,16.99,USD
+423,"Agricultural, Biological, and Food Sciences",Advances in Pig Welfare,15.89,USD
+424,"Agricultural, Biological, and Food Sciences",Advances in Agricultural Animal Welfare,20.99,USD
+425,"Agricultural, Biological, and Food Sciences","Methods in Consumer Research, Volume 2",16.99,USD
+426,"Agricultural, Biological, and Food Sciences","Methods in Consumer Research, Volume 1",14.89,USD
+427,"Agricultural, Biological, and Food Sciences",Food Freezing and Frozen Food Storage,19.99,USD
+428,"Agricultural, Biological, and Food Sciences",Recognition Systems,12.99,USD
+429,"Agricultural, Biological, and Food Sciences",Cheese,19.99,USD
+430,"Agricultural, Biological, and Food Sciences",Introduction to Food Toxicology,16.49,USD
+431,"Agricultural, Biological, and Food Sciences",Enzymes,25.99,USD
+432,"Agricultural, Biological, and Food Sciences",Genomics in Food Safety,16.99,USD
+433,"Agricultural, Biological, and Food Sciences",The Edible Aroids,19.99,USD
+434,"Agricultural, Biological, and Food Sciences",Fruit Juices,17.99,USD
+435,"Agricultural, Biological, and Food Sciences",Sustainable Management of Arthropod Pests of Tomato,13.99,USD
+436,"Agricultural, Biological, and Food Sciences",Food Fortification in a Globalized World,27.99,USD
+437,"Agricultural, Biological, and Food Sciences",Nutrition in the Prevention and Treatment of Disease,18.99,USD
+438,"Agricultural, Biological, and Food Sciences",Biology of Oysters,14.99,USD
+439,"Agricultural, Biological, and Food Sciences",The Biology and Conservation of the Whooping Crane (Grus americana),10.99,USD
+440,"Agricultural, Biological, and Food Sciences",Phytotherapy in Aquaculture,15.69,USD
+441,"Agricultural, Biological, and Food Sciences","Biofuels, Bioenergy and Food Security",43.99,USD
+442,"Agricultural, Biological, and Food Sciences",Incorporating Cultures' Role in the Food and Agricultural Sciences,39.99,USD
+443,"Agricultural, Biological, and Food Sciences",Vegetarian and Plant Based Diets in Health and Disease Prevention,19.99,USD
+444,"Agricultural, Biological, and Food Sciences",Proteomics in Food Science,29.99,USD
+445,"Agricultural, Biological, and Food Sciences",The Biology and Conservation of Cheetahs,15.99,USD
+446,"Agricultural, Biological, and Food Sciences",Functional Diversity of Mycorrhiza and Sustainable Agriculture,15.49,USD
+447,"Agricultural, Biological, and Food Sciences",Encyclopedia of Marine Mammals,49.99,USD
+448,"Agricultural, Biological, and Food Sciences",Nature's Machines,12.99,USD
+449,"Agricultural, Biological, and Food Sciences",Ultrasound: Advances for Food Processing and Preservation,14.49,USD
+450,"Agricultural, Biological, and Food Sciences",Controlled and Modified Atmosphere for Fresh and Fresh-Cut Produce,14.99,USD
+451,"Agricultural, Biological, and Food Sciences",The Bifidobacteria and Related Organisms,11.99,USD
+452,"Agricultural, Biological, and Food Sciences",Myxomycetes,12.99,USD
+453,"Agricultural, Biological, and Food Sciences",Yogurt in Health and Disease Prevention,11.99,USD
+454,"Agricultural, Biological, and Food Sciences",Physiology of the Cladocera,13.99,USD
+455,"Agricultural, Biological, and Food Sciences",Animals and Human Society,10.99,USD
+456,"Agricultural, Biological, and Food Sciences",Pathology of Zoo and Wild Animals,104.99,USD
+457,"Agricultural, Biological, and Food Sciences",High Throughput Next Generation Sequence Analysis for Food Microbiologists,26.99,USD
+458,"Agricultural, Biological, and Food Sciences","Arthropod Vector: Controller of Disease Transmission, Volume 1",16.99,USD
+459,"Agricultural, Biological, and Food Sciences",Mixed-Species Groups of Animals,38.99,USD
+460,"Agricultural, Biological, and Food Sciences",Multifunctional Agriculture,10.99,USD
+461,"Agricultural, Biological, and Food Sciences","Arthropod Vector: Controller of Disease Transmission, Volume 2",13.99,USD
+462,"Agricultural, Biological, and Food Sciences",The Future Rice Strategy for India,12.99,USD
+463,"Agricultural, Biological, and Food Sciences",Conservation for the Anthropocene Ocean,8.99,USD
+464,"Agricultural, Biological, and Food Sciences",Micronutrients in Human Health,8.79,USD
+465,"Agricultural, Biological, and Food Sciences",Immunity and Inflammation in Health and Disease,12.99,USD
+466,"Agricultural, Biological, and Food Sciences",Enzymes in Human and Animal Nutrition,8.99,USD
+467,"Agricultural, Biological, and Food Sciences",FDA Warning Letters about Food Products,14.79,USD
+468,"Agricultural, Biological, and Food Sciences",Sexual Biology and Reproduction in Crustaceans,9.99,USD
+469,"Agricultural, Biological, and Food Sciences",Examining Ecology,10.69,USD
+470,"Agricultural, Biological, and Food Sciences",Nutritional and Health Aspects of Traditional and Ethnic Foods of Nordic Countries,12.39,USD
+471,"Agricultural, Biological, and Food Sciences",Bioactive Polysaccharides,9.99,USD
+472,"Agricultural, Biological, and Food Sciences",Unconventional Oilseeds and Oil Sources,11.99,USD
+473,"Agricultural, Biological, and Food Sciences",Wafer and Waffle Processing and Manufacturing,12.99,USD
+474,"Agricultural, Biological, and Food Sciences",Starch-based Materials in Food Packaging,14.49,USD
+475,"Agricultural, Biological, and Food Sciences",Starches for Food Application,10.99,USD
+476,"Agricultural, Biological, and Food Sciences",#NAME?,15.99,USD
+477,"Agricultural, Biological, and Food Sciences",Fatty Acids,12.99,USD
+478,"Agricultural, Biological, and Food Sciences",Staphylococcus Aureus,11.99,USD
+479,"Agricultural, Biological, and Food Sciences",Nanoencapsulation of Food Bioactive Ingredients,10.59,USD
+480,"Agricultural, Biological, and Food Sciences",Nutrients in Dairy and Their Implications on Health and Disease,9.99,USD
+481,"Agricultural, Biological, and Food Sciences",Preharvest Modulation of Postharvest Fruit and Vegetable Quality,11.89,USD
+482,"Agricultural, Biological, and Food Sciences",Dairy in Human Health and Disease Across the Lifespan,11.99,USD
+483,"Agricultural, Biological, and Food Sciences",Handbook of Grape Processing By-Products,8.79,USD
+484,"Agricultural, Biological, and Food Sciences",Ethnozoology,9.99,USD
+485,"Agricultural, Biological, and Food Sciences",Hazard Analysis and Risk Based Preventative Controls,13.39,USD
+486,"Agricultural, Biological, and Food Sciences",Smart Technologies for Sustainable Smallholder Agriculture,9.99,USD
+487,"Agricultural, Biological, and Food Sciences","Irradiation for Quality Improvement, Microbial Safety and Phytosanitation of Fresh Produce",10.99,USD
+488,"Agricultural, Biological, and Food Sciences",Innovative Technologies for Food Preservation,12.49,USD
+489,"Agricultural, Biological, and Food Sciences",Why Penguins Communicate,13.39,USD
+490,"Agricultural, Biological, and Food Sciences",Hazard Analysis and Risk Based Preventive Controls,10.59,USD
+491,"Agricultural, Biological, and Food Sciences",Plant Macro-Nutrient Use Efficiency,10.59,USD
+492,"Agricultural, Biological, and Food Sciences",Food Bioconversion,11.29,USD
+493,"Agricultural, Biological, and Food Sciences",Hormone Metabolism and Signaling in Plants,13.99,USD
+494,"Agricultural, Biological, and Food Sciences",Climate Change Impacts on Soil Processes and Ecosystem Properties,7.89,USD
+495,"Agricultural, Biological, and Food Sciences",Process Control,9.59,USD
+496,"Biochemistry, Genetics and Molecular Biology",Immunosensing for Detection of Protein Biomarkers,10.99,USD
+497,"Biochemistry, Genetics and Molecular Biology",Ion Channels in Health and Disease,9.99,USD
+498,"Biochemistry, Genetics and Molecular Biology",Boorman's Pathology of the Rat,13.99,USD
+499,"Biochemistry, Genetics and Molecular Biology",Genomic and Precision Medicine,9.99,USD
+500,"Biochemistry, Genetics and Molecular Biology",Epigenetics and Behavior,13.79,USD
+501,"Biochemistry, Genetics and Molecular Biology",Viroids and Satellites,7.89,USD
+502,"Biochemistry, Genetics and Molecular Biology",Genomic and Precision Medicine,13.89,USD
+503,"Biochemistry, Genetics and Molecular Biology",Neural Lipid Signalling,12.49,USD
+504,"Biochemistry, Genetics and Molecular Biology",Developmental and Regenerative Biology,12.89,USD
+505,"Biochemistry, Genetics and Molecular Biology",Cell Polarity in Development and Disease,9.99,USD
+506,"Biochemistry, Genetics and Molecular Biology",Biology and Engineering of Stem Cell Niches,10.69,USD
+507,"Biochemistry, Genetics and Molecular Biology",Diagnostic Molecular Biology,11.79,USD
+508,"Biochemistry, Genetics and Molecular Biology",Translational Aspects of Extracellular Matrix,10.99,USD
+509,"Biochemistry, Genetics and Molecular Biology",Epigenetics and Systems Biology,10.49,USD
+510,"Biochemistry, Genetics and Molecular Biology",Viruses,13.99,USD
+511,"Biochemistry, Genetics and Molecular Biology",Nuclear Architecture and Dynamics,10.99,USD
+512,"Biochemistry, Genetics and Molecular Biology",Regenerative Medicine Translation,7.99,USD
+513,"Biochemistry, Genetics and Molecular Biology",Medical Biochemistry,11.59,USD
+514,"Biochemistry, Genetics and Molecular Biology",Computational Epigenomics and Disease,11.99,USD
+515,"Biochemistry, Genetics and Molecular Biology",Cytokine Effector Functions in Tissues,19.79,USD
+516,"Biochemistry, Genetics and Molecular Biology",Long Noncoding RNAs,20.49,USD
+517,"Biochemistry, Genetics and Molecular Biology",The Human Body,19.99,USD
+518,"Biochemistry, Genetics and Molecular Biology",Nitric Oxide,36.79,USD
+519,"Biochemistry, Genetics and Molecular Biology",ReSearch,17.69,USD
+520,"Biochemistry, Genetics and Molecular Biology",Gnotobiotics,15.99,USD
+521,"Biochemistry, Genetics and Molecular Biology",RNA Methodologies,21.49,USD
+522,"Biochemistry, Genetics and Molecular Biology",The European Research Management Handbook,17.79,USD
+523,"Biochemistry, Genetics and Molecular Biology",Protein NMR Spectroscopy,9.99,USD
+524,"Biochemistry, Genetics and Molecular Biology",Handbook of Epigenetics,19.99,USD
+525,"Biochemistry, Genetics and Molecular Biology","An Introduction to Ethical, Safety and Intellectual Property Rights Issues in Biotechnology",18.59,USD
+526,"Biochemistry, Genetics and Molecular Biology",Animal Models for the Study of Human Disease,19.99,USD
+527,"Biochemistry, Genetics and Molecular Biology",Electrocardiography of Laboratory Animals,16.49,USD
+528,"Biochemistry, Genetics and Molecular Biology",Dyneins,15.99,USD
+529,"Biochemistry, Genetics and Molecular Biology",Dyneins,21.89,USD
+530,"Biochemistry, Genetics and Molecular Biology",Epigenetic Mechanisms in Cancer,16.99,USD
+531,"Biochemistry, Genetics and Molecular Biology",Problem Sets Series: Case Studies in Biochemistry,18.99,USD
+532,"Biochemistry, Genetics and Molecular Biology",Glyceraldehyde-3-Phosphate Dehydrogenase (GAPDH),16.99,USD
+533,"Biochemistry, Genetics and Molecular Biology",HIV/AIDS,17.69,USD
+534,"Biochemistry, Genetics and Molecular Biology",Bioinformatics for Beginners,16.89,USD
+535,"Biochemistry, Genetics and Molecular Biology",Gas Bubble Dynamics in the Human Body,15.79,USD
+536,"Biochemistry, Genetics and Molecular Biology",Cancer and Noncoding RNAs,17.49,USD
+537,"Biochemistry, Genetics and Molecular Biology",Retrovirus-Cell Interactions,18.89,USD
+538,"Biochemistry, Genetics and Molecular Biology",Mucosal Vaccines,16.99,USD
+539,"Biochemistry, Genetics and Molecular Biology","Cell Surface GRP78, a New Paradigm in Signal Transduction Biology",14.79,USD
+540,"Biochemistry, Genetics and Molecular Biology",It's in Your DNA,16.59,USD
+541,"Biochemistry, Genetics and Molecular Biology",High Throughput Bioanalytical Sample Preparation,10.79,USD
+542,Biomedical Science and Medicine,Nanoemulsions,18.99,USD
+543,Biomedical Science and Medicine,Atlas of Comparative Vertebrate Histology,6.59,USD
+544,Biomedical Science and Medicine,Laboratory Exercises in Molecular Pathology,11.99,USD
+545,Biomedical Science and Medicine,An Introduction to Cardiovascular Therapy,9.99,USD
+546,Biomedical Science and Medicine,"Kidney Transplantation, Bioengineering and Regeneration",9.99,USD
+547,Biomedical Science and Medicine,Back to Basics In Physiology,11.99,USD
+548,Biomedical Science and Medicine,The Contribution of Pathology and Laboratory Medicine to Clinical Informatics,12.69,USD
+549,Biomedical Science and Medicine,Heart Failure in the in the Child and Young Adult,15.99,USD
+550,Biomedical Science and Medicine,Advances in Brain Cancer for Clinicians and Scientists,9.49,USD
+551,Biomedical Science and Medicine,Molecular Pathology,21.49,USD
+552,Biomedical Science and Medicine,Biomarkers in Inborn Errors of Metabolism,16.49,USD
+553,Biomedical Science and Medicine,Comparative Anatomy and Histology,10.49,USD
+554,Biomedical Science and Medicine,Think Like a Biostatistics Analyst,22.99,USD
+555,Biomedical Science and Medicine,Clinical Informatics Literacy,11.49,USD
+556,Biomedical Science and Medicine,Textbook of Nephro-Endocrinology,13.99,USD
+557,Biomedical Science and Medicine,Endocrine Biomarkers,11.99,USD
+558,Biomedical Science and Medicine,Principles of Gender-Specific Medicine,34.99,USD
+559,Biomedical Science and Medicine,Lung Epithelial Biology in the Pathogenesis of Pulmonary Disease,13.99,USD
+560,Biomedical Science and Medicine,Ethical Challenges in Oncology,10.49,USD
+561,Biomedical Science and Medicine,Alpha-1-antitrypsin Deficiency,10.39,USD
+562,Biomedical Science and Medicine,"Transfusion Medicine, Apheresis, and Hemostasis",19.99,USD
+563,Biomedical Science and Medicine,Cutaneous Melanoma,9.99,USD
+564,Biomedical Science and Medicine,Genetics of Bone Biology and Skeletal Disease,11.99,USD
+565,Biomedical Science and Medicine,Case Studies in Physiology,13.89,USD
+566,Biomedical Science and Medicine,Chronic Kidney Disease in Disadvantaged Populations,23.49,USD
+567,Biomedical Science and Medicine,Translational Bioinformatics and Systems Biology Methods for Personalized Medicine,34.99,USD
+568,Biomedical Science and Medicine,Case Studies in Public Health,16.49,USD
+569,Biomedical Science and Medicine,Omics Technologies and Bio-engineering,8.99,USD
+570,Biomedical Science and Medicine,Surgical Treatment of Atrial Fibrillation,12.99,USD
+571,Biomedical Science and Medicine,Research in the Biomedical Sciences,15.49,USD
+572,Biomedical Science and Medicine,Dietary Fiber for the Prevention of Cardiovascular Disease,18.49,USD
+573,Biomedical Science and Medicine,Microbiology and Molecular Diagnosis in Pathology,38.99,USD
+574,Biomedical Science and Medicine,"Health Professionals' Education in the Age of Clinical Information Systems, Mobile Computing and Social Networks",14.99,USD
+575,Biomedical Science and Medicine,Gastrointestinal Tissue,18.99,USD
+576,Biomedical Science and Medicine,Nitric Oxide Donors,19.99,USD
+577,Biomedical Science and Medicine,Disaster Epidemiology,15.69,USD
+578,Biomedical Science and Medicine,Pouchitis and Ileal Pouch Disorders,14.49,USD
+579,Biomedical Science and Medicine,Atlas of the Human Body,15.99,USD
+580,Biomedical Science and Medicine,Human Genome Informatics,14.79,USD
+581,Biomedical Science and Medicine,Key Advances in Clinical Informatics,13.69,USD
+582,Biomedical Science and Medicine,Blanco's Overview of Alpha-1 Antitrypsin Deficiency,19.99,USD
+583,Biomedical Science and Medicine,Molecular Physiology of the Blood Vessel,16.49,USD
+584,Biomedical Science and Medicine,Health Reform Policy to Practice,16.89,USD
+585,Biomedical Science and Medicine,"GERD: A NEW UNDERSTANDING OF PATHOLOGY, PATHOPHYSIOLOGY, AND TREATMENT",28.59,USD
+586,Biomedical Science and Medicine,Manual of Coronary Chronic Total Occlusion Interventions,17.99,USD
+587,Biomedical Science and Medicine,Bladder Cancer,16.49,USD
+588,Biomedical Science and Medicine,Vitamin D,29.99,USD
+589,Biomedical Science and Medicine,Vitamin D,17.99,USD
+590,Biomedical Science and Medicine,Medical Writing and Editing,16.49,USD
+591,Biomedical Science and Medicine,New Approaches to the Aortic Disease from Valve to Abdominal Bifurcation,22.99,USD
+592,Biomedical Science and Medicine,Lifestyle Medicine,16.99,USD
+593,Biomedical Science and Medicine,The Complete Reference for Scimitar Syndrome,26.99,USD
+594,Biomedical Science and Medicine,Skin Tissue Models for Regenerative Medicine,22.99,USD
+595,Biomedical Science and Medicine,Value of Diagnostic Imaging,14.89,USD
+596,Biomedical Science and Medicine,Nitric Oxide as a Chemosensitizing Agent,16.99,USD
+597,Biomedical Science and Medicine,Wilson Disease,10.69,USD
+598,Biomedical Science and Medicine,The Prevention of Cardiovascular Disease through The Mediterranean Diet,13.99,USD
+599,Biomedical Science and Medicine,Data Literacy,16.79,USD
+600,Biomedical Science and Medicine,Congenital Adrenal Hyperplasia,11.99,USD
+601,Biomedical Science and Medicine,International Gender Specific Medicine,13.99,USD
+602,Biomedical Science and Medicine,Coronary Artery Disease,11.99,USD
+603,Biomedical Science and Medicine,Early Warning for Infectious Disease Outbreak,13.99,USD
+604,Biomedical Science and Medicine,Role of Nutraceuticals in Chemoresistance to Cancer,18.49,USD
+605,Biomedical Science and Medicine,Understanding the Complexities of Child Growth,19.49,USD
+606,Biomedical Science and Medicine,Development of rFVIIa,10.69,USD
+607,Biomedical Science and Medicine,Thyroid Cancer and Nuclear Accidents,14.69,USD
+608,Biomedical Science and Medicine,Biopharmaceutical Management,19.99,USD
+609,Biomedical Science and Medicine,Pharmacoepidemiology and Pharmacovigilance,15.99,USD
+610,Biomedical Science and Medicine,Signals and Systems in e-Health,9.49,USD
+611,Biomedical Science and Medicine,New Health Systems,10.89,USD
+612,Biomedical Science and Medicine,Transposable Elements and RNA,13.49,USD
+613,Biomedical Science and Medicine,Looking at Ribozymes,9.39,USD
+614,Chemical Engineering,Statistical Mechanics of Colloidal Matter,10.69,USD
+615,Chemical Engineering,Coalescence Separations,9.69,USD
+616,Chemical Engineering,Recrystallization and Related Annealing Phenomena,10.49,USD
+617,Chemical Engineering,Biopharmaceutical Processing,8.49,USD
+618,Chemical Engineering,Theory of Electrophoresis and Diffusiophoresis of Highly Charged Colloidal Particles,14.89,USD
+619,Chemical Engineering,Bretherick's Handbook of Reactive Chemical Hazards,9.99,USD
+620,Chemical Engineering,Coulson and Richardson’s Chemical Engineering,10.99,USD
+621,Chemical Engineering,Coulson and Richardson’s Chemical Engineering,9.99,USD
+622,Chemical Engineering,Coulson and Richardson’s Chemical Engineering,11.69,USD
+623,Chemical Engineering,Coulson and Richardson’s Chemical Engineering,8.89,USD
+624,Chemical Engineering,Coulson and Richardson’s Chemical Engineering,11.99,USD
+625,Chemical Engineering,Process Safety Calculations,8.49,USD
+626,Chemical Engineering,"Reliability, Maintainability and Risk",6.79,USD
+627,Chemical Engineering,Reaction Engineering,10.99,USD
+628,Chemical Engineering,The Science and Technology of Unconventional Oils,9.99,USD
+629,Chemical Engineering,Recent Advances in Emerging Membrane Science and Technology,33.99,USD
+630,Chemical Engineering,"Thermodynamics, Phase Diagrams and Thermodynamic Modeling of Solutions",10.89,USD
+631,Chemical Engineering,Self-Assembly Processes at Interfaces,10.39,USD
+632,Chemical Engineering,Novel Catalytic and Separation Processes Based on Ionic Liquids,12.99,USD
+633,Chemical Engineering,Natech Risk Assessment and Management,12.49,USD
+634,Chemical Engineering,Polyurethane Polymers,11.89,USD
+635,Chemical Engineering,Polyurethane Polymers,9.69,USD
+636,Chemical Engineering,Anisotropic Particle Assemblies,7.89,USD
+637,Chemical Engineering,Lignocellulosics,15.79,USD
+638,Chemical Engineering,Concise Encyclopedia of Self-Propagating High-Temperature Synthesis,14.79,USD
+639,Chemical Engineering,A Systems Approach to Managing the Complexities of Process Industries,12.79,USD
+640,Chemical Engineering,The Art of Cryogenics,15.79,USD
+641,Chemical Engineering,"Morphological, Compositional, and Shape Control of Materials for Catalysis",12.69,USD
+642,Chemical Engineering,Purification of Laboratory Chemicals,15.89,USD
+643,Chemical Engineering,Desalination Sustainability,15.89,USD
+644,Chemical Engineering,Sustainable Design Through Process Integration,10.99,USD
+645,Chemical Engineering,General Chemistry for Engineers,9.99,USD
+646,Chemical Engineering,Rules of Thumb for Chemical Engineers,14.59,USD
+647,Chemical Engineering,Pulp and Paper Industry,14.99,USD
+648,Chemical Engineering,Generalized van der Waals Theory of Molecular Fluids in Bulk and at Surfaces,12.59,USD
+649,Chemical Engineering,Fuel Cells and Hydrogen,8.79,USD
+650,Chemical Engineering,Reaction Rate Theory and Rare Events,9.89,USD
+651,Chemical Engineering,Lead-Acid Batteries: Science and Technology,10.99,USD
+652,Chemical Engineering,Artificial Photosynthesis,14.99,USD
+653,Chemical Engineering,Monodispersed Particles,13.99,USD
+654,Chemical Engineering,Advanced Industrial Lead-Acid Batteries,14.69,USD
+655,Chemical Engineering,Pressurized Fluids for Food and Natural Products Processing,17.99,USD
+656,Chemical Engineering,New and Future Developments in Microbial Biotechnology and Bioengineering,17.99,USD
+657,Chemical Engineering,New and Future Developments in Microbial Biotechnology and Bioengineering,21.99,USD
+658,Chemical Engineering,New and Future Developments in Microbial Biotechnology and Bioengineering,19.99,USD
+659,Chemical Engineering,Nanolayer Research,23.99,USD
+660,Chemical Engineering,Future Directions in Biocatalysis,29.99,USD
+661,Chemical Engineering,Safety of Lithium Batteries,29.99,USD
+662,Chemical Engineering,Experimental Methods and Instrumentation for Chemical Engineers,11.59,USD
+663,Chemical Engineering,Algal Green Chemistry,15.99,USD
+664,Chemical Engineering,Current Trends and Future Developments on (Bio-) Membranes,15.99,USD
+665,Chemical Engineering,Methanol,13.99,USD
+666,Chemical Engineering,Gibbs' Entropic Paradox and Problems of Separation Processes,19.99,USD
+667,Chemical Engineering,ESCAPE 27 Set,13.99,USD
+668,Chemical Engineering,Non-covalent Interactions in Organocatalysis,9.99,USD
+669,Chemical Engineering,Bioreactor Modeling,4.99,USD
+670,Chemical Engineering,Organocatalyzed Domino and Multicomponent Reactions,11.99,USD
+671,Chemical Engineering,Recent Advances in Aminocatalyzed Cascade Reactions,19.99,USD
+672,Chemical Engineering,SOMO and Photoredox Activations in Asymmetric Organocatalysis,4.94,USD
+673,Chemistry,Separation Science and Technology,6.59,USD
+674,Chemistry,Transition Metal Catalyzed Isoquinoline Synthesis,18.99,USD
+675,Chemistry,Fundamentals of Enviromental Chemistry,9.49,USD
+676,Chemistry,Searching and Researching: An Autobiography,5.49,USD
+677,Chemistry,Medicinal Chemistry,4.79,USD
+678,Chemistry,The Chemistry of Radical Polymerization,14.99,USD
+679,Chemistry,Validamycin and Its Derivatives,4.99,USD
+680,Chemistry,Design of Hybrid Molecules for Drug Development,11.89,USD
+681,Chemistry,The Chemistry of Heterocycles,27.59,USD
+682,Chemistry,Progress in Heterocyclic Chemistry,4.79,USD
+683,Chemistry,Medicinal Chemistry for Organic Chemists,8.99,USD
+684,Chemistry,Physical Chemistry,6.79,USD
+685,Chemistry,Electron Microscopy and Analysis,7.49,USD
+686,Chemistry,Organosilicon Compounds,4.29,USD
+687,Chemistry,Advanced Inorganic Chemistry,9.99,USD
+688,Chemistry,Sampling and Analysis of Environmental Chemical Pollutants,23.99,USD
+689,Chemistry,Future Role of Chemistry as Gleaned from Granted U.S. Chemical Patents,19.89,USD
+690,Chemistry,NMR Case Studies,9.99,USD
+691,Chemistry,Metal Complexes of Non-Innocent Ligands,4.49,USD
+692,Chemistry,Patent Law Basics for Chemists and Research Professionals,15.99,USD
+693,Chemistry,C-Furanosides,10.99,USD
+694,Chemistry,Encapsulated Catalysts,7.89,USD
+695,Chemistry,Modelling and Simulation in the Science of Micro- and Meso-Porous Materials,4.99,USD
+696,Chemistry,Piperidine-based Drug Discovery,12.39,USD
+697,Chemistry,Strategies for Palladium-Catalyzed Non-Directed and Directed C-H Bond Functionalization,8.39,USD
+698,Chemistry,Liquid Chromatography,13.99,USD
+699,Chemistry,Liquid Chromatography,23.99,USD
+700,Chemistry,Separation Science and Proteomics,13.89,USD
+701,Chemistry,Transition Metal-Catalyzed Indole Synthesis,13.89,USD
+702,Chemistry,Water Extraction of Bioactive Compounds,27.99,USD
+703,Chemistry,Handbook of Synthetic Organic Chemistry,19.59,USD
+704,Chemistry,Making Drugs From Fragments,10.99,USD
+705,Chemistry,Non-covalent Interactions in Quantum Chemistry and Physics,9.99,USD
+706,Chemistry,"Electrons, Atoms, and Molecules in Inorganic Chemistry",7.99,USD
+707,Chemistry,Frontiers and Advances in Molecular Spectroscopy,18.99,USD
+708,Chemistry,Strategies and Tactics in Organic Synthesis,11.99,USD
+709,Chemistry,Biological Chirality,6.45,USD
+710,Chemistry,Introduction to Graphene,12.49,USD
+711,Chemistry,Laboratory Methods in Microfluidics,11.99,USD
+712,Chemistry,Molecular and Laser Spectroscopy,17.99,USD
+713,Chemistry,Sample Introduction Systems in ICP-MS and ICP-OES,16.99,USD
+714,Chemistry,Analysis of Cosmetic Products,5.69,USD
+715,Chemistry,Priority Pollutants Monitoring in Water,11.99,USD
+716,Chemistry,UV-Visible Spectrophotometry of Water and Wastewater,7.49,USD
+717,Chemistry,Studies in Natural Products Chemistry,11.89,USD
+718,Chemistry,Studies in Natural Products Chemistry,8.99,USD
+719,Chemistry,Studies in Natural Products Chemistry,8.99,USD
+720,Chemistry,Frontiers in Medicinal Chemistry,19.99,USD
+721,Computer Science,Data Fusion for Intelligent Vehicles,5.09,USD
+722,Computer Science,Big Data in Cyber-Physical Society,4.49,USD
+723,Computer Science,Machine Learning,14.99,USD
+724,Computer Science,Three-Dimensional Integrated Circuit Design,11.99,USD
+725,Computer Science,Network Routing,8.79,USD
+726,Computer Science,Understanding Virtual Reality,12.49,USD
+727,Computer Science,Patterns for Data Parallel Programming,12.69,USD
+728,Computer Science,Environment Modeling-based Requirements Engineering for Software Intensive Systems,6.89,USD
+729,Computer Science,The Complete Business Process Handbook,13.79,USD
+730,Computer Science,CUDA Programming,9.99,USD
+731,Computer Science,The Complete Business Process Handbook,14.99,USD
+732,Computer Science,Transfer Learning,9.99,USD
+733,Computer Science,Theoretic Foundation of Predictive Data Analytics,8.99,USD
+734,Computer Science,Computer and Information Security Handbook,14.59,USD
+735,Computer Science,Embedded Computing for High Performance,7.99,USD
+736,Computer Science,Adaptive Mobile Computing,13.99,USD
+737,Computer Science,Research Methods for Cyber Security,7.49,USD
+738,Computer Science,Research Methods in Human Computer Interaction,10.99,USD
+739,Computer Science,Software Architecture for Big Data and the Cloud,19.89,USD
+740,Computer Science,TopUML Modeling,9.89,USD
+741,Computer Science,Mobile Cloud Computing,11.49,USD
+742,Computer Science,Smart Sensors Networks,10.99,USD
+743,Computer Science,Statistical Shape and Deformation Analysis,9.89,USD
+744,Computer Science,Wireless Public Safety Networks 3,13.69,USD
+745,Computer Science,Certifiable Software Applications 3,13.99,USD
+746,Computer Science,Certifiable Software Applications 4,12.79,USD
+747,Computer Science,ESD Protection Methodologies,6.99,USD
+748,Computer Science,Flash Memory Integration,10.99,USD
+749,Computer Science,B Method,6.99,USD
+750,Computer Science,Adaptive Neural Networks and Robots Intelligent Control in Direct or Indirect Interaction with Humans,4.99,USD
+751,Earth and Planetary Sciences,Earth's Oldest Rocks,5.99,USD
+752,Earth and Planetary Sciences,ISTE topics in Earth and Planetary Science 2,3.49,USD
+753,Earth and Planetary Sciences,ISTE topics in Earth and Planetary Science 3,7.89,USD
+754,Earth and Planetary Sciences,Infrared and Raman Spectroscopy of the Cationic Clay Minerals,11.59,USD
+755,Earth and Planetary Sciences,Modern and Past Glacial Environments,5.49,USD
+756,Earth and Planetary Sciences,Uncertainty Analysis in Earth and Environmental Science,4.99,USD
+757,Earth and Planetary Sciences,Ore Dogs and Economic Geology,5.99,USD
+758,Earth and Planetary Sciences,Progress in Rock Physics,8.49,USD
+759,Earth and Planetary Sciences,Thermodynamics of Atmospheres and Oceans,9.99,USD
+760,Earth and Planetary Sciences,Basic Principles of Induction Logging,9.99,USD
+761,Earth and Planetary Sciences,Community Resilience,12.49,USD
+762,Earth and Planetary Sciences,Spatiotemporal Random Fields,9.99,USD
+763,Earth and Planetary Sciences,Terrestrial Depositional Systems,11.99,USD
+764,Earth and Planetary Sciences,Statistical Modeling and Analysis,6.39,USD
+765,Earth and Planetary Sciences,"Geological Belts, Plate Boundaries and Mineral Deposits in Myanmar",5.99,USD
+766,Earth and Planetary Sciences,Photo Atlas of Mineral Pseudomorphism,6.39,USD
+767,Earth and Planetary Sciences,Risk Modeling for Hazards and Disasters,7.69,USD
+768,Earth and Planetary Sciences,Volatiles in the Martian Crust,3.59,USD
+769,Earth and Planetary Sciences,Urban Planning for Disaster Recovery,6.99,USD
+770,Earth and Planetary Sciences,Proterozoic Orogens of India,3.99,USD
+771,Earth and Planetary Sciences,Data Assimilation for the Geosciences,6.99,USD
+772,Earth and Planetary Sciences,"Handbook of Mineral Spectroscopy, Volume 1",3.49,USD
+773,Earth and Planetary Sciences,Kappa Distributions,7.99,USD
+774,Earth and Planetary Sciences,Bio-optical Modeling and Remote Sensing of Inland Waters,2.79,USD
+775,Earth and Planetary Sciences,Soil Health and Intensification of Agroecosystems,2.59,USD
+776,Earth and Planetary Sciences,Practical Solutions to Integrated Oil and Gas Reservoir Analysis,6.39,USD
+777,Earth and Planetary Sciences,The Indian Ocean Nodule Field,5.69,USD
+778,Earth and Planetary Sciences,Introduction to Satellite Remote Sensing,7.79,USD
+779,Earth and Planetary Sciences,"Permo-Triassic Salt Provinces of Europe, North Africa and the Atlantic  Margins",5.99,USD
+780,Earth and Planetary Sciences,Geographical Information Management in Polar Regions,3.89,USD
+781,Earth and Planetary Sciences,Case Studies in Disaster Preparedness,5.49,USD
+782,Earth and Planetary Sciences,Case Studies in Disaster Mitigation,5.69,USD
+783,Earth and Planetary Sciences,Geoheritage,5.79,USD
+784,Earth and Planetary Sciences,"Creating Katrina, Rebuilding Resilience",6.89,USD
+785,Earth and Planetary Sciences,Map Interpretation for Structural Geologists,3.79,USD
+786,Earth and Planetary Sciences,Coding and Decoding: Seismic Data,4.99,USD
+787,Earth and Planetary Sciences,Processes and Ore Deposits of Ultramafic-Mafic Magmas through Space and Time,4.19,USD
+788,Earth and Planetary Sciences,The Indian Nitrogen Assessment,9.99,USD
+789,Earth and Planetary Sciences,Habitability of the Universe before Earth,4.89,USD
+790,Earth and Planetary Sciences,Unconventional Petroleum Geology,9.89,USD
+791,Earth and Planetary Sciences,New Zealand Landscape,18.89,USD
+792,Earth and Planetary Sciences,Marine Geo-Hazards in China,19.79,USD
+793,Earth and Planetary Sciences,Impacts and Insights of Gorkha Earthquake in Nepal,12.79,USD
+794,Earth and Planetary Sciences,The Quaternary Ice Age in the Alps,9.99,USD
+795,Earth and Planetary Sciences,Practical Prospect Evaluation,12.39,USD
+796,Earth and Planetary Sciences,Interpretation of Micromorphological Features of Soils and Regoliths,13.49,USD
+797,Earth and Planetary Sciences,Data Room Management and Rapid Asset Evaluation - Theory and Case Studies in Oil and Gas,9.99,USD
+798,Earth and Planetary Sciences,Foundations of Geophysical Electromagnetic Theory and Methods,13.49,USD
