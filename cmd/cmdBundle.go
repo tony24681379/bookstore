@@ -14,39 +14,24 @@
 
 package cmd
 
-import (
-	"github.com/spf13/cobra"
-	"github.com/tony24681379/bookstore/bundle"
-)
-
-const (
-	defaultElasticSearchIP = "0.0.0.0:9200"
-	flagElasticSearchIP    = "elastic-search-ip"
-	flagElasticSearchPort  = "elastic-search-port"
-	flagAkkaIP             = "akka-ip"
-)
-
-type serverOptions struct {
-	elasticSearchIP   string
-	elasticSearchPort string
-	akkaIP            string
-}
+import "github.com/spf13/cobra"
 
 //NewBundleCommand initial BundleCommand
 func NewBundleCommand() *cobra.Command {
-	opts := serverOptions{}
 	cmd := &cobra.Command{
 		Use:   "bundle",
 		Short: "bundle some books in a bundle",
 		Run: func(cmd *cobra.Command, args []string) {
-			runBundle(opts)
+			cmd.Help()
 		},
 	}
 
-	cmd.AddCommand(NewBundleAddCmd())
+	cmd.AddCommand(
+		NewBundleAddCmd(),
+		NewBundleDeleteCmd(),
+		NewBundleCreateCmd(),
+		NewBundleRemoveCmd(),
+		NewBundleModifyCmd(),
+	)
 	return cmd
-}
-
-func runBundle(opts serverOptions) {
-	bundle.Bundle()
 }
