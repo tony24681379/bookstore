@@ -31,7 +31,7 @@ func NewBundleCommand() *cobra.Command {
 		NewBundleDeleteCmd(),
 		NewBundleCreateCmd(),
 		NewBundleRemoveCmd(),
-		NewBundleModifyCmd(),
+		NewBundleUpdateCmd(),
 	)
 	return cmd
 }

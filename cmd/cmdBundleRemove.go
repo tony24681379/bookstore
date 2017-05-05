@@ -23,7 +23,7 @@ func NewBundleRemoveCmd() *cobra.Command {
 		},
 	}
 	flags := cmd.Flags()
-	flags.IntVar(&opts.bookID, "book-id", -1, "Book ID")
+	flags.IntVar(&opts.bookID, "book-id", 0, "Book ID")
 	return cmd
 }
 

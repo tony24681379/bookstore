@@ -6,18 +6,18 @@ import (
 )
 
 type bundleCreateOptions struct {
-	BundleID string
-	Note     string
+	BundleName string
+	Note       string
 }
 
 //NewBundleCreateCmd Create the book into the bundle
 func NewBundleCreateCmd() *cobra.Command {
 	var opts bundleCreateOptions
 	cmd := &cobra.Command{
-		Use:   "create bundleID",
+		Use:   "create bundleName",
 		Short: "Create the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
-			opts.BundleID = args[0]
+			opts.BundleName = args[0]
 			runCreate(opts)
 		},
 	}
@@ -27,5 +27,5 @@ func NewBundleCreateCmd() *cobra.Command {
 }
 
 func runCreate(opts bundleCreateOptions) {
-	bundle.Create(opts.BundleID, opts.Note)
+	bundle.Create(opts.BundleName, opts.Note)
 }
