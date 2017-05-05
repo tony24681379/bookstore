@@ -33,7 +33,7 @@ func NewBundleCommand(db *gorm.DB) *cobra.Command {
 		NewBundleCreateCmd(db),
 		NewBundleRemoveCmd(db),
 		NewBundleUpdateCmd(db),
-		NewBundleSearchCmd(db),
+		NewBundleListCmd(db),
 	)
 	return cmd
 }

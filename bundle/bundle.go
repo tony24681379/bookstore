@@ -34,6 +34,7 @@ func Create(db *gorm.DB, bundleName string, note string) {
 	if err != nil {
 		fmt.Println(err)
 	}
+	fmt.Println("Bundle ID:", bundle.ID)
 }
 
 //Delete the bundle
@@ -92,8 +93,8 @@ func Remove(db *gorm.DB, bundleID string, bookID int) {
 	}
 }
 
-//Search the book or bundle
-func Search(db *gorm.DB, bookName string, bundleName string) {
+//List the book or bundle
+func List(db *gorm.DB, bookName string, bundleName string) {
 	fmt.Println("Remove", bookName, bundleName)
 	sql := `select m.id as ID
 		,m.bundle_name as BundleName 
@@ -102,8 +103,8 @@ func Search(db *gorm.DB, bookName string, bundleName string) {
 		,p.product_category as ProductCategory
 		,p.product_name as ProductName
 		from bundle_masters m
-		join bundle_details d on m.id = d.bundle_id
-		join products p on d.book_id = p.id
+		left join bundle_details d on m.id = d.bundle_id
+		left join products p on d.book_id = p.id
 		where 1=1`
 	if bookName != "" {
 		sql = sql + " and product_name like '%" + bookName + "%'"
@@ -131,8 +132,8 @@ func Search(db *gorm.DB, bookName string, bundleName string) {
 			rows.Scan(&ID, &BundleName, &Note, &ProductID, &ProductCategory, &ProductName)
 			if id != ID {
 				id = ID
-				fmt.Println("---------------------------------------------------------------------")
-				fmt.Printf("Bundle ID: %-s   Bundle Name: %-20s Note: %s\n", ID, BundleName, Note)
+				fmt.Println("\n---------------------------------------------------------------------")
+				fmt.Printf("Bundle ID: %-6s Bundle Name: %-20s Note: %s\n", ID, BundleName, Note)
 				fmt.Printf("Product ID | Product Category |  ProductName\n")
 			} else {
 				fmt.Printf("%10s | %-16s |  %-40s\n", ProductID, ProductCategory, ProductName)
