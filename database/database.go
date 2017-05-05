@@ -90,6 +90,9 @@ type Product struct {
 	ProductCategory string
 	ProductName     string
 	Price           string
+	Good            bool
+	LongTerm        bool
+	Risk            bool
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 	DeletedAt       *time.Time
