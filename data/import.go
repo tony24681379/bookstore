@@ -6,33 +6,48 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 
-	"github.com/jinzhu/gorm"
 	//mysql driver
+	"io"
+
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/tony24681379/bookstore/database"
 )
 
 func main() {
-	f, err := os.Open("/Users/tony/go/src/github.com/tony24681379/bookstore/data/BOOKSTORE_MST.csv")
+	f, err := os.Open("/Users/tony/go/src/github.com/tony24681379/bookstore/data/PRODUCT_MST.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
 	r := csv.NewReader(bufio.NewReader(f))
-	records, err := r.ReadAll()
-	if err != nil {
-		log.Fatal(err)
-	}
-	db := dbConnection()
-	db.HasTable("users")
-	fmt.Print(records)
-}
+	i := 0
+	db := database.DBConnection()
+	for {
+		record, err := r.Read()
+		// Stop at EOF.
+		if err == io.EOF {
+			break
+		}
+		i++
+		if i == 1 {
+			continue
+		}
+		//		fmt.Println(record)
 
-//DB connect the database
-func dbConnection() *gorm.DB {
-	db, err := gorm.Open("mysql", "root:bookstore@/bookstore?charset=utf8mb4&parseTime=True&loc=Local")
-	if err != nil {
-		panic("failed to connect database")
+		id, _ := strconv.Atoi(record[0])
+		product := database.Product{
+			ID:              uint(id),
+			ProductCategory: record[1],
+			ProductName:     record[2],
+			Price:           record[3],
+		}
+
+		err = db.Create(&product).Error
+		if err != nil {
+			fmt.Println(err)
+		}
 	}
-	defer db.Close()
-	return db
+
+	db.Close()
 }

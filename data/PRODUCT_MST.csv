@@ -1,4 +1,4 @@
-product_mst_id,product_category,product_name,price,price_unit
+id,product_category,product_name,price,price_unit
 1,Environmental Science,Time and Methods in Environmental Interfaces Modelling,37.49,USD
 2,"Agricultural, Biological, and Food Sciences",Molecular Breeding and Nutritional Aspects of Buckwheat,37.49,USD
 3,"Biochemistry, Genetics and Molecular Biology",American Trypanosomiasis Chagas Disease (Second Edition),42.99,USD
