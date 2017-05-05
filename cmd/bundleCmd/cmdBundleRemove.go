@@ -1,6 +1,7 @@
-package cmd
+package bundleCmd
 
 import (
+	"github.com/jinzhu/gorm"
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/bundle"
 )
@@ -11,7 +12,7 @@ type bundleRemoveOptions struct {
 }
 
 //NewBundleRemoveCmd Remove the book into the bundle
-func NewBundleRemoveCmd() *cobra.Command {
+func NewBundleRemoveCmd(db *gorm.DB) *cobra.Command {
 	var opts bundleRemoveOptions
 
 	cmd := &cobra.Command{
@@ -19,7 +20,7 @@ func NewBundleRemoveCmd() *cobra.Command {
 		Short: "Remove the book from the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
 			opts.bundleID = args[0]
-			runRemove(opts)
+			runRemove(db, opts)
 		},
 	}
 	flags := cmd.Flags()
@@ -27,6 +28,6 @@ func NewBundleRemoveCmd() *cobra.Command {
 	return cmd
 }
 
-func runRemove(opts bundleRemoveOptions) {
-	bundle.Remove(opts.bundleID, opts.bookID)
+func runRemove(db *gorm.DB, opts bundleRemoveOptions) {
+	bundle.Remove(db, opts.bundleID, opts.bookID)
 }

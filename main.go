@@ -14,9 +14,14 @@
 
 package main
 
-import "github.com/tony24681379/bookstore/cmd"
+import (
+	"github.com/tony24681379/bookstore/cmd"
+	"github.com/tony24681379/bookstore/database"
+)
 
 func main() {
-	cmd.InitCmd()
+	db := database.DBConnection()
+	defer db.Close()
+	cmd.InitCmd(db)
 	cmd.Execute()
 }

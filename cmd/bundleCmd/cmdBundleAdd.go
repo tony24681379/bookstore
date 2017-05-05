@@ -1,6 +1,7 @@
-package cmd
+package bundleCmd
 
 import (
+	"github.com/jinzhu/gorm"
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/bundle"
 )
@@ -11,7 +12,7 @@ type bundleAddOptions struct {
 }
 
 //NewBundleAddCmd add the book into the bundle
-func NewBundleAddCmd() *cobra.Command {
+func NewBundleAddCmd(db *gorm.DB) *cobra.Command {
 	var opts bundleAddOptions
 
 	cmd := &cobra.Command{
@@ -19,7 +20,7 @@ func NewBundleAddCmd() *cobra.Command {
 		Short: "Add the book into the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
 			opts.bundleID = args[0]
-			runAdd(opts)
+			runAdd(db, opts)
 		},
 	}
 	flags := cmd.Flags()
@@ -27,6 +28,6 @@ func NewBundleAddCmd() *cobra.Command {
 	return cmd
 }
 
-func runAdd(opts bundleAddOptions) {
-	bundle.Add(opts.bundleID, opts.bookID)
+func runAdd(db *gorm.DB, opts bundleAddOptions) {
+	bundle.Add(db, opts.bundleID, opts.bookID)
 }

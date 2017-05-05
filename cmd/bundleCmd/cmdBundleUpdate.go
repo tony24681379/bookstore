@@ -1,6 +1,7 @@
-package cmd
+package bundleCmd
 
 import (
+	"github.com/jinzhu/gorm"
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/bundle"
 )
@@ -12,14 +13,14 @@ type bundleUpdateOptions struct {
 }
 
 //NewBundleUpdateCmd Update the book into the bundle
-func NewBundleUpdateCmd() *cobra.Command {
+func NewBundleUpdateCmd(db *gorm.DB) *cobra.Command {
 	var opts bundleUpdateOptions
 	cmd := &cobra.Command{
 		Use:   "update bundleID",
 		Short: "Update the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
 			opts.bundleID = args[0]
-			runUpdate(opts)
+			runUpdate(db, opts)
 		},
 	}
 	flags := cmd.Flags()
@@ -28,6 +29,6 @@ func NewBundleUpdateCmd() *cobra.Command {
 	return cmd
 }
 
-func runUpdate(opts bundleUpdateOptions) {
-	bundle.Update(opts.bundleID, opts.bundleName, opts.Note)
+func runUpdate(db *gorm.DB, opts bundleUpdateOptions) {
+	bundle.Update(db, opts.bundleID, opts.bundleName, opts.Note)
 }

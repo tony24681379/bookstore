@@ -19,7 +19,9 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
+	"github.com/jinzhu/gorm"
 	"github.com/spf13/cobra"
+	"github.com/tony24681379/bookstore/cmd/bundleCmd"
 )
 
 type options struct {
@@ -53,9 +55,9 @@ func Execute() {
 }
 
 //InitCmd init cobra command
-func InitCmd() {
+func InitCmd(db *gorm.DB) {
 	initProgramFlag()
-	RootCmd.AddCommand(NewBundleCommand())
+	RootCmd.AddCommand(bundleCmd.NewBundleCommand(db))
 }
 
 func initProgramFlag() {

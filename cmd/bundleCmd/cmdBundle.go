@@ -12,12 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package cmd
+package bundleCmd
 
 import "github.com/spf13/cobra"
+import "github.com/jinzhu/gorm"
 
 //NewBundleCommand initial BundleCommand
-func NewBundleCommand() *cobra.Command {
+func NewBundleCommand(db *gorm.DB) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "bundle",
 		Short: "bundle some books in a bundle",
@@ -27,11 +28,12 @@ func NewBundleCommand() *cobra.Command {
 	}
 
 	cmd.AddCommand(
-		NewBundleAddCmd(),
-		NewBundleDeleteCmd(),
-		NewBundleCreateCmd(),
-		NewBundleRemoveCmd(),
-		NewBundleUpdateCmd(),
+		NewBundleAddCmd(db),
+		NewBundleDeleteCmd(db),
+		NewBundleCreateCmd(db),
+		NewBundleRemoveCmd(db),
+		NewBundleUpdateCmd(db),
+		NewBundleSearchCmd(db),
 	)
 	return cmd
 }

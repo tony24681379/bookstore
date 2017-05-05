@@ -1,6 +1,7 @@
-package cmd
+package bundleCmd
 
 import (
+	"github.com/jinzhu/gorm"
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/bundle"
 )
@@ -11,14 +12,14 @@ type bundleCreateOptions struct {
 }
 
 //NewBundleCreateCmd Create the book into the bundle
-func NewBundleCreateCmd() *cobra.Command {
+func NewBundleCreateCmd(db *gorm.DB) *cobra.Command {
 	var opts bundleCreateOptions
 	cmd := &cobra.Command{
 		Use:   "create bundleName",
 		Short: "Create the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
 			opts.BundleName = args[0]
-			runCreate(opts)
+			runCreate(db, opts)
 		},
 	}
 	flags := cmd.Flags()
@@ -26,6 +27,6 @@ func NewBundleCreateCmd() *cobra.Command {
 	return cmd
 }
 
-func runCreate(opts bundleCreateOptions) {
-	bundle.Create(opts.BundleName, opts.Note)
+func runCreate(db *gorm.DB, opts bundleCreateOptions) {
+	bundle.Create(db, opts.BundleName, opts.Note)
 }
