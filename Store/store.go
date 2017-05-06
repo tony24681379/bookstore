@@ -39,7 +39,7 @@ func List(db *gorm.DB, recommendID string, bookstoreID string) {
 		sql = sql + " and bookstore_id = " + bookstoreID
 	}
 	sql = sql + " order by rm.id, p.id"
-	logrus.Info(sql)
+	logrus.Debug(sql)
 
 	rows, err := db.Raw(sql).Rows()
 	defer rows.Close()
