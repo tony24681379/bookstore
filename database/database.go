@@ -129,8 +129,8 @@ type SalesStatus struct {
 type StoreStatus struct {
 	ProductID   uint
 	BookstoreID uint
-	stack       uint
-	stock       uint
+	Stack       uint
+	Stock       uint
 	CreatedAt   time.Time
 	UpdatedAt   time.Time
 	DeletedAt   *time.Time
