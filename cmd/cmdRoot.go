@@ -23,6 +23,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/cmd/bundleCmd"
 	"github.com/tony24681379/bookstore/cmd/recommendCmd"
+	"github.com/tony24681379/bookstore/cmd/salesCmd"
 )
 
 type options struct {
@@ -61,6 +62,7 @@ func InitCmd(db *gorm.DB) {
 	RootCmd.AddCommand(
 		bundleCmd.NewBundleCommand(db),
 		recommendCmd.NewRecommendCommand(db),
+		salesCmd.NewSalesCommand(db),
 	)
 }
 
