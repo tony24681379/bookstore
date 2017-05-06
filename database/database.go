@@ -113,6 +113,9 @@ type Product struct {
 	DeletedAt       *time.Time
 }
 
+//Products is array of Product
+type Products []Product
+
 //SalesStatus define
 type SalesStatus struct {
 	ProductID   uint
