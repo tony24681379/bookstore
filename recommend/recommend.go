@@ -106,8 +106,7 @@ func List(db *gorm.DB, recommendID string, bookstoreID string) {
 	left join bundle_masters bm on bm.id = rbundle.bundle_id
 	left join bundle_details bd on bm.id = bd.bundle_id
 	left join products p on bd.book_id = p.id or rbook.book_id = p.id
-	where 1=1
-	`
+	where 1=1`
 	if recommendID != "" {
 		sql = sql + " and rm.id = " + recommendID
 	}
@@ -115,7 +114,7 @@ func List(db *gorm.DB, recommendID string, bookstoreID string) {
 		sql = sql + " and bookstore_id = " + bookstoreID
 	}
 	sql = sql + " order by rm.id, p.id"
-	logrus.Info(sql)
+	logrus.Debug(sql)
 
 	rows, err := db.Raw(sql).Rows()
 	defer rows.Close()

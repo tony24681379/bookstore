@@ -24,7 +24,7 @@ func NewRecommendListCmd(db *gorm.DB) *cobra.Command {
 	}
 	flags := cmd.Flags()
 	flags.StringVar(&opts.recommendID, "recommend-id", "", "List the recommend ID")
-	flags.StringVar(&opts.bookstoreID, "bookstore-id", "", "List the bookstore id")
+	flags.StringVar(&opts.bookstoreID, "bookstore-id", "", "List the bookstore ID")
 	return cmd
 }
 
