@@ -21,7 +21,7 @@ import "github.com/jinzhu/gorm"
 func NewBundleCommand(db *gorm.DB) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "bundle",
-		Short: "bundle some books in a bundle",
+		Short: "manage the bundles",
 		Run: func(cmd *cobra.Command, args []string) {
 			cmd.Help()
 		},
