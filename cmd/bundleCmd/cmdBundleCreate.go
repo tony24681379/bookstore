@@ -7,8 +7,8 @@ import (
 )
 
 type bundleCreateOptions struct {
-	BundleName string
-	Note       string
+	bundleName string
+	note       string
 }
 
 //NewBundleCreateCmd Create the book into the bundle
@@ -18,15 +18,15 @@ func NewBundleCreateCmd(db *gorm.DB) *cobra.Command {
 		Use:   "create bundleName",
 		Short: "Create the bundle",
 		Run: func(cmd *cobra.Command, args []string) {
-			opts.BundleName = args[0]
+			opts.bundleName = args[0]
 			runCreate(db, opts)
 		},
 	}
 	flags := cmd.Flags()
-	flags.StringVar(&opts.Note, "note", "", "Add note to bundle")
+	flags.StringVar(&opts.note, "note", "", "Add note to bundle")
 	return cmd
 }
 
 func runCreate(db *gorm.DB, opts bundleCreateOptions) {
-	bundle.Create(db, opts.BundleName, opts.Note)
+	bundle.Create(db, opts.bundleName, opts.note)
 }
