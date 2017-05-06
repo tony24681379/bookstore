@@ -21,7 +21,7 @@ func Add(db *gorm.DB, bundleID string, bookID int) {
 			bundleDetail := database.BundleDetail{BundleID: uint(id), BookID: bookID}
 			err := db.Create(&bundleDetail).Error
 			if err != nil {
-				fmt.Println(err)
+				logrus.Error(err)
 			}
 		}
 	}
@@ -33,7 +33,7 @@ func Create(db *gorm.DB, bundleName string, note string) {
 	bundle := database.BundleMaster{BundleName: bundleName, Note: note}
 	err := db.Create(&bundle).Error
 	if err != nil {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 	fmt.Println("Bundle ID:", bundle.ID)
 }
@@ -46,10 +46,10 @@ func Delete(db *gorm.DB, bundleID string) {
 
 		err := db.Unscoped().Delete(&bundle).Error
 		if err != nil {
-			fmt.Println(err)
+			logrus.Error(err)
 		}
 	} else {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 }
 
@@ -70,10 +70,10 @@ func Update(db *gorm.DB, bundleID string, bundleName string, note string) {
 				Update(database.BundleMaster{Note: note}).Error
 		}
 		if err != nil {
-			fmt.Println(err)
+			logrus.Error(err)
 		}
 	} else {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 }
 
@@ -84,12 +84,12 @@ func Remove(db *gorm.DB, bundleID string, bookID int) {
 		bundleDetail := database.BundleDetail{BundleID: uint(id), BookID: bookID}
 		err := db.Unscoped().Where(bundleDetail).Delete(&bundleDetail).Error
 		if err != nil {
-			fmt.Println(err)
+			logrus.Error(err)
 		} else {
 			fmt.Println("success")
 		}
 	} else {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 }
 
@@ -140,6 +140,6 @@ func List(db *gorm.DB, bookName string, bundleName string) {
 			fmt.Printf("%10s | %-16s |  %-40s\n", ProductID, ProductCategory, ProductName)
 		}
 	} else {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 }
