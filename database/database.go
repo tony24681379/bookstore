@@ -23,6 +23,9 @@ func initDB(db *gorm.DB) {
 	db.AutoMigrate(&BundleMaster{})
 	db.AutoMigrate(&BundleDetail{})
 	db.AutoMigrate(&BookStore{})
+	db.AutoMigrate(&RecommendMaster{})
+	db.AutoMigrate(&RecommendBundle{})
+	db.AutoMigrate(&RecommendBook{})
 	db.AutoMigrate(&Product{})
 	db.AutoMigrate(&SalesStatus{})
 	db.AutoMigrate(&StoreStatus{})
@@ -56,32 +59,43 @@ type BookStore struct {
 	DeletedAt   *time.Time
 }
 
-//RecommedMaster define
-type RecommedMaster struct {
-	ID           uint `gorm:"AUTO_INCREMENT"`
-	RecommedName string
-	Capacity     uint
-	CreatedAt    time.Time
-	UpdatedAt    time.Time
-	DeletedAt    *time.Time
+//RecommendMaster define
+type RecommendMaster struct {
+	ID            uint `gorm:"AUTO_INCREMENT"`
+	RecommendName string
+	BookstoreID   uint
+	Capacity      uint
+	DayLow        uint
+	DayHigh       uint
+	WeekLow       uint
+	WeekHigh      uint
+	MonthLow      uint
+	MonthHigh     uint
+	StackLow      uint
+	StackHigh     uint
+	StockLow      uint
+	StockHigh     uint
+	CreatedAt     time.Time
+	UpdatedAt     time.Time
+	DeletedAt     *time.Time
 }
 
-//RecommedBundle define
-type RecommedBundle struct {
-	ID        uint
-	BundleID  uint
-	CreatedAt time.Time
-	UpdatedAt time.Time
-	DeletedAt *time.Time
+//RecommendBundle define
+type RecommendBundle struct {
+	RecommendID uint
+	BundleID    uint
+	CreatedAt   time.Time
+	UpdatedAt   time.Time
+	DeletedAt   *time.Time
 }
 
-//RecommedBook define
-type RecommedBook struct {
-	ID        uint
-	BookID    uint
-	CreatedAt time.Time
-	UpdatedAt time.Time
-	DeletedAt *time.Time
+//RecommendBook define
+type RecommendBook struct {
+	RecommendID uint
+	BookID      uint
+	CreatedAt   time.Time
+	UpdatedAt   time.Time
+	DeletedAt   *time.Time
 }
 
 //Product define
@@ -93,6 +107,7 @@ type Product struct {
 	Good            bool
 	LongTerm        bool
 	Risk            bool
+	Due             time.Time
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
 	DeletedAt       *time.Time

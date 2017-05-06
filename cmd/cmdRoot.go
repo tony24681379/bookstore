@@ -15,13 +15,14 @@
 package cmd
 
 import (
-	"fmt"
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"
+	"github.com/lytics/logrus"
 	"github.com/spf13/cobra"
 	"github.com/tony24681379/bookstore/cmd/bundleCmd"
+	"github.com/tony24681379/bookstore/cmd/recommendCmd"
 )
 
 type options struct {
@@ -40,8 +41,8 @@ var RootCmd = &cobra.Command{
 	// Run: func(cmd *cobra.Command, args []string) { },
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
 		if opts.Debug == true {
-			logrus.SetLevel(logrus.DebugLevel)
-			fmt.Println("debug")
+			log.SetLevel(log.DebugLevel)
+			log.Debug("debug level")
 		}
 	},
 }
@@ -49,7 +50,7 @@ var RootCmd = &cobra.Command{
 // Execute adds all child commands to the root command sets flags appropriately.
 func Execute() {
 	if err := RootCmd.Execute(); err != nil {
-		fmt.Println(err)
+		logrus.Error(err)
 		os.Exit(-1)
 	}
 }
@@ -57,7 +58,10 @@ func Execute() {
 //InitCmd init cobra command
 func InitCmd(db *gorm.DB) {
 	initProgramFlag()
-	RootCmd.AddCommand(bundleCmd.NewBundleCommand(db))
+	RootCmd.AddCommand(
+		bundleCmd.NewBundleCommand(db),
+		recommendCmd.NewRecommendCommand(db),
+	)
 }
 
 func initProgramFlag() {

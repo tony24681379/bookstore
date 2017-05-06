@@ -5,12 +5,13 @@ import (
 	"strconv"
 
 	"github.com/jinzhu/gorm"
+	"github.com/lytics/logrus"
 	"github.com/tony24681379/bookstore/database"
 )
 
 //Add book into the bundle
 func Add(db *gorm.DB, bundleID string, bookID int) {
-	fmt.Println("add", bundleID, bookID)
+	logrus.Debug("add", bundleID, bookID)
 	if id, err := strconv.Atoi(bundleID); err == nil {
 		var bundleMaster database.BundleMaster
 
@@ -28,7 +29,7 @@ func Add(db *gorm.DB, bundleID string, bookID int) {
 
 //Create the bundle
 func Create(db *gorm.DB, bundleName string, note string) {
-	fmt.Println("create", bundleName, note)
+	logrus.Debug("create", bundleName, note)
 	bundle := database.BundleMaster{BundleName: bundleName, Note: note}
 	err := db.Create(&bundle).Error
 	if err != nil {
@@ -39,7 +40,7 @@ func Create(db *gorm.DB, bundleName string, note string) {
 
 //Delete the bundle
 func Delete(db *gorm.DB, bundleID string) {
-	fmt.Println("delete", bundleID)
+	logrus.Debug("delete", bundleID)
 	if id, err := strconv.Atoi(bundleID); err == nil {
 		bundle := database.BundleMaster{ID: uint(id)}
 
@@ -54,7 +55,7 @@ func Delete(db *gorm.DB, bundleID string) {
 
 //Update the bundle
 func Update(db *gorm.DB, bundleID string, bundleName string, note string) {
-	fmt.Println("update", bundleID, note)
+	logrus.Debug("update", bundleID, note)
 	if id, err := strconv.Atoi(bundleID); err == nil {
 		var bundle database.BundleMaster
 		var err error
@@ -79,7 +80,7 @@ func Update(db *gorm.DB, bundleID string, bundleName string, note string) {
 
 //Remove the book from the bundle
 func Remove(db *gorm.DB, bundleID string, bookID int) {
-	fmt.Println("Remove", bundleID, bookID)
+	logrus.Debug("Remove", bundleID, bookID)
 	if id, err := strconv.Atoi(bundleID); err == nil {
 		bundleDetail := database.BundleDetail{BundleID: uint(id), BookID: bookID}
 		err := db.Unscoped().Where(bundleDetail).Delete(&bundleDetail).Error
@@ -95,7 +96,7 @@ func Remove(db *gorm.DB, bundleID string, bookID int) {
 
 //List the book or bundle
 func List(db *gorm.DB, bookName string, bundleName string) {
-	fmt.Println("Remove", bookName, bundleName)
+	logrus.Debug("List", bookName, bundleName)
 	sql := `select m.id as ID
 		,m.bundle_name as BundleName 
 		,m.note as Note
@@ -113,7 +114,7 @@ func List(db *gorm.DB, bookName string, bundleName string) {
 		sql = sql + " and bundle_name like '%" + bundleName + "%'"
 	}
 	sql = sql + " order by m.id, p.id"
-	//	fmt.Println(sql)
+	logrus.Debug(sql)
 
 	rows, err := db.Raw(sql).Rows()
 	defer rows.Close()
@@ -135,9 +136,9 @@ func List(db *gorm.DB, bookName string, bundleName string) {
 				fmt.Println("\n---------------------------------------------------------------------")
 				fmt.Printf("Bundle ID: %-6s Bundle Name: %-20s Note: %s\n", ID, BundleName, Note)
 				fmt.Printf("Product ID | Product Category |  ProductName\n")
-			} else {
-				fmt.Printf("%10s | %-16s |  %-40s\n", ProductID, ProductCategory, ProductName)
+
 			}
+			fmt.Printf("%10s | %-16s |  %-40s\n", ProductID, ProductCategory, ProductName)
 		}
 	} else {
 		fmt.Println(err)
