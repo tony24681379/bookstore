@@ -24,6 +24,7 @@ import (
 	"github.com/tony24681379/bookstore/cmd/bundleCmd"
 	"github.com/tony24681379/bookstore/cmd/recommendCmd"
 	"github.com/tony24681379/bookstore/cmd/salesCmd"
+	"github.com/tony24681379/bookstore/cmd/storeCmd"
 )
 
 type options struct {
@@ -63,6 +64,7 @@ func InitCmd(db *gorm.DB) {
 		bundleCmd.NewBundleCommand(db),
 		recommendCmd.NewRecommendCommand(db),
 		salesCmd.NewSalesCommand(db),
+		storeCmd.NewStoreCommand(db),
 	)
 }
 

@@ -65,7 +65,6 @@ func Update(db *gorm.DB, bundleID string, bundleName string, note string) {
 		} else if bundleName != "" {
 			err = db.Model(&bundle).Where(database.BundleMaster{ID: uint(id)}).
 				Update(database.BundleMaster{BundleName: bundleName}).Error
-
 		} else if note != "" {
 			err = db.Model(&bundle).Where(database.BundleMaster{ID: uint(id)}).
 				Update(database.BundleMaster{Note: note}).Error
