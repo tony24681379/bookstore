@@ -10,9 +10,9 @@ import (
 
 type productMarkOptions struct {
 	id   string
-	good bool
-	long bool
-	risk bool
+	good string
+	long string
+	risk string
 	due  time.Time
 }
 
@@ -29,9 +29,9 @@ func NewProductMarkCmd(db *gorm.DB) *cobra.Command {
 		},
 	}
 	flags := cmd.Flags()
-	flags.BoolVar(&opts.good, "good", false, "Mark the the as good sales")
-	flags.BoolVar(&opts.long, "long-term", false, "Mark the book as long term")
-	flags.BoolVar(&opts.risk, "risk", false, "Mark the the as risk")
+	flags.StringVar(&opts.good, "good", "", "Mark the the as good sales")
+	flags.StringVar(&opts.long, "long-term", "", "Mark the book as long term")
+	flags.StringVar(&opts.risk, "risk", "", "Mark the book as risk")
 	return cmd
 }
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-go run main.go recommend create test2 1 \
+bookstore recommend create deep 2 \
 --capacity 10 \
 --day-high 10 \
 --day-low 2 \
@@ -12,8 +12,10 @@ go run main.go recommend create test2 1 \
 --stock-high 200 \
 --stock-low 40
 
-go run main.go recommend delete 1 1 
+bookstore recommend delete 1 1 
 
-go run main.go recommend add 4 --book-id 7
+bookstore recommend add 8 --book-id 21
 
-go run main.go recommend add 4 --bundle-id 6
+bookstore recommend add 8 --bundle-id 5
+
+bookstore recommend create test1

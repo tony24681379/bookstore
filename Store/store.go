@@ -2,6 +2,7 @@ package store
 
 import (
 	"fmt"
+	"strconv"
 
 	"github.com/jinzhu/gorm"
 	"github.com/lytics/logrus"
@@ -46,6 +47,7 @@ func List(db *gorm.DB, recommendID string, bookstoreID string) {
 
 	if err == nil {
 		id := ""
+		var low []string
 		for rows.Next() {
 			var (
 				RecommendID     string
@@ -77,17 +79,33 @@ func List(db *gorm.DB, recommendID string, bookstoreID string) {
 				&Stock,
 			)
 			if id != RecommendID {
+				// if len(low) > 0 {
+				// 	for _, v := range low {
+				// 		product.Stock(db, "", v)
+				// 	}
+				// }
+				// low = low[0:0]
 				id = RecommendID
 				fmt.Println("\n---------------------------------------------------------------------")
 				fmt.Printf("Recommend ID: %-5s Recommend Name: %-15s Bookstore: %-10s Capacity: %3s\n", RecommendID, RecommendName, BookstoreID, Capacity)
 				fmt.Printf("Product ID | Product Category | %-40s | [%2s,%2s] | [%2s,%3s]\n", "ProductName", StackLow, StackHigh, StockLow, StockHigh)
 			}
 			if ProductID != "" {
-				fmt.Printf("%10s | %-16s | %-20s | %7s | %7s \n", ProductID, tools.TruncateString(ProductCategory, 16), tools.TruncateString(ProductName, 40),
+				fmt.Printf("%10s | %-16s | %-40s | %7s | %7s \n", ProductID, tools.TruncateString(ProductCategory, 16), tools.TruncateString(ProductName, 40),
 					tools.Highlight(Stack, StackLow, StackHigh, 7), tools.Highlight(Stock, StockLow, StockHigh, 7))
+				v, _ := strconv.Atoi(Stack)
+				l, _ := strconv.Atoi(StackLow)
+				if v < l {
+					low = append(low, ProductID)
+				}
 			}
 		}
+		// if len(low) > 0 {
+		// 	for _, v := range low {
+		// 		product.Stock(db, "", v)
+		// 	}
+		// }
 	} else {
-		fmt.Println(err)
+		logrus.Error(err)
 	}
 }

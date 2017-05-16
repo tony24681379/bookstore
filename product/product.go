@@ -13,7 +13,7 @@ import (
 
 //List the product
 func List(db *gorm.DB, id string, bookName string) {
-	logrus.Info("add", id, bookName)
+	logrus.Debug("list", id, bookName)
 	var products database.Products
 	err := db.Find(&products).Error
 	if err != nil {
@@ -50,31 +50,98 @@ func List(db *gorm.DB, id string, bookName string) {
 }
 
 //Mark the book
-func Mark(db *gorm.DB, id string, good bool, long bool, risk bool, Due time.Time) {
+func Mark(db *gorm.DB, id string, good string, long string, risk string, Due time.Time) {
 	var product database.Product
-	// err := db.Where("id = ?", id).Find(&product).Error
-	// if err != nil {
-	// 	logrus.Error(err)
-	// 	return
-	// }
 	i, err := strconv.Atoi(id)
 	if err != nil {
 		logrus.Error(err)
 		return
 	}
 	product.ID = uint(i)
-	if good {
-		product.Good = true
+	if good != "" {
+		if good == "true" {
+			product.Good = true
+		} else {
+			product.Good = false
+		}
 	}
-	if long {
-		product.LongTerm = true
+	if long != "" {
+		if long == "true" {
+			product.LongTerm = true
+		} else {
+			product.LongTerm = false
+		}
 	}
-	if risk {
-		product.Risk = true
+	if risk != "" {
+		if risk == "true" {
+			product.Risk = true
+		} else {
+			product.Risk = false
+		}
 	}
 	err = db.Model(&product).Update(product).Error
 	if err != nil {
 		logrus.Error(err)
 		return
+	}
+}
+
+//Stock list the books inventory
+func Stock(db *gorm.DB, bookstoreID string, bookID string) {
+	sql := `select b.bookstore_id
+		,p.id
+		,product_category
+		,product_name
+		,stack
+		,stock
+		from products p
+		join store_statuses s on p.id = s.product_id
+		join book_stores b on s.bookstore_id = b.bookstore_id
+		where 1=1
+	`
+	if bookstoreID != "" {
+		sql = sql + " and s.bookstore_id = " + bookstoreID
+	}
+	if bookID != "" {
+		sql = sql + " and p.id = " + bookID
+	}
+	sql = sql + " order by p.id, s.bookstore_id "
+	logrus.Debug(sql)
+
+	rows, err := db.Raw(sql).Rows()
+	defer rows.Close()
+
+	if err == nil {
+		id := ""
+		for rows.Next() {
+			var (
+				BookstoreID     string
+				ProductID       string
+				ProductCategory string
+				ProductName     string
+				Stack           string
+				Stock           string
+			)
+			rows.Scan(
+				&BookstoreID,
+				&ProductID,
+				&ProductCategory,
+				&ProductName,
+				&Stack,
+				&Stock,
+			)
+			if ProductID != "" {
+				if id != ProductID {
+					id = ProductID
+					fmt.Println("\n---------------------------------------------------------------------")
+					fmt.Printf("Bookstore ID | Product ID | Product Category | %-30s |   Stack |   Stock \n", "ProductName")
+				}
+				fmt.Printf("%12s | %10s | %-16s | %-30s | %7s | %7s \n", BookstoreID, ProductID,
+					tools.TruncateString(ProductCategory, 16), tools.TruncateString(ProductName, 30),
+					tools.Highlight(Stack, "10", "50", 7), tools.Highlight(Stock, "30", "70", 7))
+			}
+		}
+	} else {
+		logrus.Error(err)
 	}
 }

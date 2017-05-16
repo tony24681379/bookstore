@@ -30,6 +30,7 @@ func NewProductCommand(db *gorm.DB) *cobra.Command {
 	cmd.AddCommand(
 		NewProductListCmd(db),
 		NewProductMarkCmd(db),
+		NewProductStockCmd(db),
 	)
 	return cmd
 }

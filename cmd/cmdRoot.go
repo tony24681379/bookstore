@@ -36,7 +36,7 @@ var opts = options{}
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "Smart manage system",
+	Use:   "bookstore",
 	Short: "A good cooperation tool for bookstore chain",
 	Long:  `A golang backend server serve frontend which connects to ElasticSearch and Akka`,
 	// Uncomment the following line if your bare application
